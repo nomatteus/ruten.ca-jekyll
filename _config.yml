@@ -1,1 +1,19 @@
+###
+# See here for config docs: https://github.com/mojombo/jekyll/wiki/Configuration
+###
+
+# Don't put these in the _site folder
 exclude: Gemfile, Gemfile.lock
+
+# Auto-regenerate site when files change
+auto: true
+
+# Don't publish posts with a future date. Allows scheduling, of sorts.
+future: false
+
+# Generates and index for related posts. TODO: Figure out how this works and what it actually is.
+lsi: true
+
+# Creates posts in a directory with an index.html
+permalink: pretty
+
