@@ -1,0 +1,35 @@
+---
+layout: post
+title: Resume Downloads from FTP using CURL
+tags:
+- Blog
+- Geek
+- How To
+status: publish
+type: post
+published: true
+meta:
+  _yoast_wpseo_linkdex: '0'
+  dsq_thread_id: '727591487'
+  _sd_is_markdown: '1'
+  _edit_last: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_sitemap-include: ! '-'
+  _yoast_wpseo_sitemap-prio: ! '-'
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+---
+<p>This is how you can resume a download when using Curl. Helpful for large files, mostly.</p>
+
+<pre><code>curl -C - ftp://siteorip.com/filename.zip --user username --verbose &gt; savetothis_filename.zip
+
+-C -                           - resumes download (if supported)
+--user username"               - will prompt for password (if needed)
+--verbose"                     - see what's going on
+&gt; savetothis_filename.zip      - file to output to
+</code></pre>

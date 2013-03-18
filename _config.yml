@@ -3,7 +3,7 @@
 ###
 
 # Don't put these in the _site folder
-exclude: Gemfile, Gemfile.lock
+exclude: Gemfile, Gemfile.lock, ruten.ca.sublime-project, ruten.ca.sublime-workspace
 
 # Auto-regenerate site when files change
 auto: true

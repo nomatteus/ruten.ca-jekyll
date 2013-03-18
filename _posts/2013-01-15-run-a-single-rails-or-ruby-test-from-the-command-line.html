@@ -1,0 +1,46 @@
+---
+layout: post
+title: Run a Single Rails or Ruby Test from the Command Line
+tags:
+- Blog
+- Geek
+- How To
+status: publish
+type: post
+published: true
+meta:
+  _yoast_wpseo_linkdex: '0'
+  _edit_last: '1'
+  _sd_is_markdown: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_sitemap-include: ! '-'
+  _yoast_wpseo_sitemap-prio: ! '-'
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  dsq_thread_id: '1027700982'
+---
+<p>Sometimes when focusing on a specific area/method in a project, you may not want to run the full test suite every time you make a change. This is especially true in Rails projects, since tests can take a while to run.</p>
+
+<p>Here's how to run a single method of a test:</p>
+
+<pre><code>ruby -I test test/path/to/the_test.rb -n test_method_name
+</code></pre>
+
+<p>You can also run all tests in a single file with:</p>
+
+<pre><code>ruby -I test test/path/to/the_test.rb
+</code></pre>
+
+<p>The above works for Rails tests, since the test helper loads the Rails environment, but this is an alternative way to run tests in a single file in the context of Rails:</p>
+
+<pre><code>rake test TEST=test/path/to_file.rb
+</code></pre>
+
+<p>And as a general Rails testing note, if there are database issues, run <code>db:test:prepare</code> before running tests, (runs all database migrations).</p>
+
+<p>For Sublime Text 2 users, the RubyTest package is worth a mention. It can run a single test or all tests from within Sublime: <a href="https://github.com/maltize/sublime-text-2-ruby-tests">https://github.com/maltize/sublime-text-2-ruby-tests</a></p>

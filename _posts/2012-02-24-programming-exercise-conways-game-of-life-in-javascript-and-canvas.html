@@ -1,0 +1,60 @@
+---
+layout: post
+title: ! 'Programming Exercise: Conway''s Game of Life in JavaScript and Canvas'
+tags:
+- Geek
+- Projects
+status: publish
+type: post
+published: true
+meta:
+  dsq_thread_id: '588491011'
+  _edit_last: '1'
+  _sd_is_markdown: '1'
+  _yoast_wpseo_focuskw: ''
+  _yoast_wpseo_title: ''
+  _yoast_wpseo_metadesc: ''
+  _yoast_wpseo_meta-robots-noindex: '0'
+  _yoast_wpseo_meta-robots-nofollow: '0'
+  _yoast_wpseo_meta-robots-adv: none
+  _yoast_wpseo_sitemap-include: ! '-'
+  _yoast_wpseo_sitemap-prio: ! '-'
+  _yoast_wpseo_canonical: ''
+  _yoast_wpseo_redirect: ''
+  _yoast_wpseo_linkdex: '0'
+---
+<p>Demo: <a href="http://nomatteus.github.com/conway-game-of-life-js/examples/">http://nomatteus.github.com/conway-game-of-life-js/examples/</a><br />
+Code: <a href="https://github.com/nomatteus/conway-game-of-life-js">https://github.com/nomatteus/conway-game-of-life-js</a></p>
+
+<h2>What is Conway's Game of Life?</h2>
+
+<p>Wikipedia has a good <a href="http://en.wikipedia.org/wiki/Conway's_Game_of_Life">article</a>. Excerpt:</p>
+
+<blockquote>
+  <p>The Game of Life, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970. The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.</p>
+  
+  <p><strong>Rules</strong></p>
+  
+  <p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:</p>
+  
+  <ol>
+  <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.  </li>
+  <li>Any live cell with two or three live neighbours lives on to the next generation.  </li>
+  <li>Any live cell with more than three live neighbours dies, as if by overcrowding.  </li>
+  <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.  </li>
+  </ol>
+</blockquote>
+
+<h2>Coding</h2>
+
+<p>I remember playing around with the Game of Life many years ago, and have always thought it would be fun to program it. It's a relatively simple programming exercise--you just need a grid of cells, and then apply the 4 rules of the Game of Life.</p>
+
+<p>After finishing the main coding, I added an option to make the grid "colourful". All this does is use a random color for each cell, instead of making everything black, but I like the results!</p>
+
+<p>Some other things I could add:</p>
+
+<ul>
+<li>Work on creating a more efficient algorithm, i.e. don't check each cell in areas that you know won't change in the next few generations </li>
+<li>Make an interface to create/draw grids, and a way to import/share them  </li>
+<li>Similar to the above, create a better way to make grids in code, to avoid having to have huge arrays of 0's  </li>
+</ul>
