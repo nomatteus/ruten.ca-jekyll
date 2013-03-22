@@ -15,14 +15,14 @@ html, button, input, select, textarea {
 }
 
 body {
-  font-size: 1em;
-  line-height: 1.4;
+  font-size: 1.2em;
+  line-height: 1.7;
 }
 
 a {
-  color: #00e;
+  color: #203273;
   &:visited {
-    color: #551a8b;
+    color: #203273;
   }
   &:hover {
     color: #06e;
@@ -58,6 +58,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+#main {
+  padding: 2%;
+  header {
+
+  }
+  .promos {
+
+  }
+  .content {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .footer {
+
+  }
+}
+
 
 /* ==========================================================================
    Helper classes

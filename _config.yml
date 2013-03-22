@@ -2,8 +2,8 @@
 # See here for config docs: https://github.com/mojombo/jekyll/wiki/Configuration
 ###
 
-# Don't put these in the _site folder
-exclude: Gemfile, Gemfile.lock, ruten.ca.sublime-project, ruten.ca.sublime-workspace
+# Don't put these in the _site folder. 
+exclude: [Gemfile, Gemfile.lock, ruten.ca.sublime-project, ruten.ca.sublime-workspace]
 
 # Auto-regenerate site when files change
 auto: true

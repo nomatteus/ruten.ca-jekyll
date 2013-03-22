@@ -13,7 +13,6 @@
   {% css_asset_tag global %}
   - /_assets/css/normalize.css.scss
   - /_assets/css/main.css.scss
-  - /_assets/css/foo.css.scss
   {% endcss_asset_tag %}
   {% javascript_asset_tag global %}
   - /_assets/foo.js.coffee
@@ -23,7 +22,23 @@
 <body>
 
   <!-- Add your site or application content here -->
-  {{ content }}
+  <div id="main">
+    <div class="header">
+      Header
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+      </ul>
+    </div>
+    <div class="promos">
+      Promos
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+    <div class="footer">
+      &copy; 2012-{{ site.time | date: "%Y" }}
+    </div>
+  </div>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
