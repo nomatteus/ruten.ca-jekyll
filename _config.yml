@@ -15,5 +15,17 @@ future: false
 lsi: true
 
 # Creates posts in a directory with an index.html
-permalink: pretty
+# permalink: pretty
+permalink: /:year/:month/:day/:title
 
+
+
+### Custom Config (non-Jekyll, for use in site templates etc.)
+
+ruten:
+  # Default Title: Probably only used on homepage
+  default_title: "Matt Ruten - Web Developer in Toronto, Ontario"
+  # Title text to append to post/etc. pages, i.e. "Post Title - Matt Ruten"
+  title_append: " - Matt Ruten"
+  # Site URL: Not used yet.
+  url: http://ruten.ca

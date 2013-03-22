@@ -1,0 +1,33 @@
+---
+comments: false
+date: 2009-12-19 05:19:47
+layout: project
+slug: globalive-corporate
+title: Globalive Corporate
+wordpress_id: 112
+skill:
+- '2009'
+- CSS
+- HTML
+- Javascript
+- PHP
+- Web Development
+- WordPress
+---
+
+`[slideshow]`
+![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped1.jpg)
+![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped2.jpg)
+![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped3.jpg)
+`[/slideshow]`
+
+Client: Globalive
+Date: 2009
+Tech: WordPress, PHP
+
+
+
+	
+  * Worked on a team to help redesign and develop the Globalive Corporate site.
+
+

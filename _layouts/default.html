@@ -3,7 +3,8 @@
 <!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>{{ page.title | ruten_title }}</title>
+
   <meta name="description" content="">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
@@ -14,20 +15,24 @@
   - /_assets/css/normalize.css.scss
   - /_assets/css/main.css.scss
   {% endcss_asset_tag %}
+
   {% javascript_asset_tag global %}
   - /_assets/foo.js.coffee
   {% endjavascript_asset_tag %}
 
 </head>
-<body>
+<body class="{{ page.body_class }}">
 
-  <!-- Add your site or application content here -->
   <div id="main">
     <div class="header">
       Header
+
       <ul class="nav">
-        <li><a href="#">Home</a></li>
+        {% for page in site.pages %}
+          <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
+        {% endfor %}
       </ul>
+
     </div>
     <div class="promos">
       Promos
@@ -36,7 +41,7 @@
       {{ content }}
     </div>
     <div class="footer">
-      &copy; 2012-{{ site.time | date: "%Y" }}
+      &copy; 2009-{{ site.time | date: "%Y" }}
     </div>
   </div>
 

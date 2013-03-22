@@ -1,0 +1,37 @@
+---
+comments: false
+date: 2011-08-21 01:00:54
+layout: project
+slug: marlene-rodillo
+title: Marlene Rodillo
+wordpress_id: 770
+skill:
+- '2011'
+- CSS
+- HTML
+- Javascript
+- MySQL
+- PHP
+- Web Development
+- WordPress
+---
+
+`[slideshow]`
+![](http://ruten.ca/wp-content/uploads/2011/08/cropped1.png)
+![](http://ruten.ca/wp-content/uploads/2011/08/cropped2.png)
+![](http://ruten.ca/wp-content/uploads/2011/08/cropped3.png)
+`[/slideshow]`
+
+Client: Marlene Rodillo (Freelance)
+Date: 2011
+Tech: WordPress, PHP
+
+
+
+	
+  * Custom WordPress theme development for Marlene Rodillo's portfolio website.
+
+	
+  * Features AJAX page navigation for smoother page transitions
+
+

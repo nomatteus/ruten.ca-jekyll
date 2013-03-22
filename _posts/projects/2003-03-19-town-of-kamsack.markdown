@@ -1,0 +1,23 @@
+---
+comments: false
+date: 2003-03-19 03:35:35
+layout: project
+slug: town-of-kamsack
+title: Town of Kamsack
+wordpress_id: 37
+skill:
+- CSS
+- HTML
+- Javascript
+- MySQL
+- PHP
+- Web Development
+---
+
+[![](http://ruten.ca/wp-content/uploads/2012/03/tok-full-cropped.jpg)](http://ruten.ca/wp-content/uploads/2012/03/tok-full-cropped.jpg)
+
+Date: 2002-2008
+
+Technology/Frameworks: PHP, MySQL, Custom Built Admin
+
+_Not currently online._
