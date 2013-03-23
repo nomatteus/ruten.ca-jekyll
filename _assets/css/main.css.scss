@@ -7,6 +7,13 @@
  */
 
 /* ==========================================================================
+   SCSS Variables! Should set most fonts & colors here.
+   ========================================================================== */
+
+$nav_font_family: "garamond", "Helvetica Neue", Arial, sans-serif;
+
+
+/* ==========================================================================
    Base Styles
    ========================================================================== */
 
@@ -64,8 +71,21 @@ textarea {
 
 #main {
   padding: 2%;
-  header {
+  .header {
+    #logo {
 
+    }
+    ul.nav {
+      font: 1.2em/1.7 $nav_font_family;
+      list-style: none;
+      text-align: center;
+      padding: 0;
+      margin: 20px 0;
+      > li {
+        display: inline-block;
+        padding: 0 10px;
+      }
+    }
   }
   .promos {
 
