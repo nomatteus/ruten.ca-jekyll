@@ -2,6 +2,7 @@
 comments: false
 date: 2012-04-21 03:06:11
 layout: project
+category: project
 slug: beadonor-ca
 title: BeADonor.ca
 wordpress_id: 803

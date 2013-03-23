@@ -2,6 +2,7 @@
 comments: false
 date: 2011-04-21 05:28:50
 layout: project
+category: project
 slug: movie-memories
 title: Movie Memories
 wordpress_id: 200

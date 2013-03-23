@@ -2,6 +2,7 @@
 comments: false
 date: 2004-03-19 03:01:27
 layout: project
+category: project
 slug: duck-mountain-lodge
 title: Duck Mountain Lodge
 wordpress_id: 17

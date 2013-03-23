@@ -2,6 +2,7 @@
 comments: false
 date: 2011-12-25 07:39:01
 layout: project
+category: project
 slug: to-transit-ttc-streetcars-live-on-a-map
 title: TO Transit - TTC Streetcars Live on a Map
 wordpress_id: 294

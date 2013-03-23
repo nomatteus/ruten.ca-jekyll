@@ -2,6 +2,7 @@
 comments: false
 date: 2011-08-21 01:00:54
 layout: project
+category: project
 slug: marlene-rodillo
 title: Marlene Rodillo
 wordpress_id: 770

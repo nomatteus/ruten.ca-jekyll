@@ -2,6 +2,7 @@
 comments: false
 date: 2008-09-19 04:47:46
 layout: project
+category: project
 slug: msn-media-sound-mix
 title: MSN Media Sound Mix
 wordpress_id: 77

@@ -2,6 +2,7 @@
 comments: false
 date: 2011-04-21 00:52:12
 layout: project
+category: project
 slug: vivace-duo
 title: Vivace Duo
 wordpress_id: 768

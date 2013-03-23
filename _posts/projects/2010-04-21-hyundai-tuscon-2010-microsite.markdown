@@ -2,6 +2,7 @@
 comments: false
 date: 2010-04-21 05:14:39
 layout: project
+category: project
 slug: hyundai-tuscon-2010-microsite
 title: Hyundai Tuscon 2010 Microsite
 wordpress_id: 161

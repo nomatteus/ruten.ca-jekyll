@@ -2,6 +2,7 @@
 comments: false
 date: 2009-12-19 05:19:47
 layout: project
+category: project
 slug: globalive-corporate
 title: Globalive Corporate
 wordpress_id: 112

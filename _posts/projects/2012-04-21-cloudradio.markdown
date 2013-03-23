@@ -2,6 +2,7 @@
 comments: false
 date: 2012-04-21 01:20:01
 layout: project
+category: project
 slug: cloudradio
 title: CloudRadio
 wordpress_id: 786

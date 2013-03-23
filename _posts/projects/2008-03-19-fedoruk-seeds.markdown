@@ -2,6 +2,7 @@
 comments: false
 date: 2008-03-19 03:42:37
 layout: project
+category: project
 slug: fedoruk-seeds
 title: Fedoruk Seeds
 wordpress_id: 50

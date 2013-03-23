@@ -2,6 +2,7 @@
 comments: false
 date: 2009-02-19 05:17:58
 layout: project
+category: project
 slug: wireless-soapbox
 title: Wireless Soapbox
 wordpress_id: 111

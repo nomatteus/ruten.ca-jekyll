@@ -2,6 +2,7 @@
 comments: false
 date: 2008-09-19 04:11:28
 layout: project
+category: project
 slug: msn-messenger-buddies
 title: MSN Messenger Buddies
 wordpress_id: 64

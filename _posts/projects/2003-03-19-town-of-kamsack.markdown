@@ -2,6 +2,7 @@
 comments: false
 date: 2003-03-19 03:35:35
 layout: project
+category: project
 slug: town-of-kamsack
 title: Town of Kamsack
 wordpress_id: 37

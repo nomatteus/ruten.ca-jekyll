@@ -2,6 +2,7 @@
 comments: false
 date: 2008-09-19 04:00:06
 layout: project
+category: project
 slug: via-envro-expo
 title: Via Envro Expo
 wordpress_id: 55

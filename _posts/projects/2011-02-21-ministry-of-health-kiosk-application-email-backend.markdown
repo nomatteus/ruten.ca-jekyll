@@ -2,6 +2,7 @@
 comments: false
 date: 2011-02-21 05:25:09
 layout: project
+category: project
 slug: ministry-of-health-kiosk-application-email-backend
 title: Ministry of Health Kiosk Application Email Backend
 wordpress_id: 195

@@ -2,6 +2,7 @@
 comments: false
 date: 2009-03-19 05:12:12
 layout: project
+category: project
 slug: ad-women-of-toronto
 title: Ad Women of Toronto
 wordpress_id: 101

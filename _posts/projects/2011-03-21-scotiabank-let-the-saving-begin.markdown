@@ -2,6 +2,7 @@
 comments: false
 date: 2011-03-21 05:27:05
 layout: project
+category: project
 slug: scotiabank-let-the-saving-begin
 title: Scotiabank - Let the Saving Begin
 wordpress_id: 198

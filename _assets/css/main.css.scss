@@ -7,7 +7,7 @@
  */
 
 /* ==========================================================================
-   Base styles: opinionated defaults
+   Base Styles
    ========================================================================== */
 
 html, button, input, select, textarea {
@@ -17,15 +17,18 @@ html, button, input, select, textarea {
 body {
   font-size: 1.2em;
   line-height: 1.7;
+  background-color: #fff;
 }
 
 a {
-  color: #203273;
+  color: #0071d5;
+  text-decoration: none;
   &:visited {
-    color: #203273;
+    color: #0071d5;
   }
   &:hover {
-    color: #06e;
+    // color: #296efe;
+    text-decoration: underline;
   }
 }
 
@@ -187,11 +190,6 @@ textarea[contenteditable] {
   }
   *zoom: 1;
 }
-
-/*
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.

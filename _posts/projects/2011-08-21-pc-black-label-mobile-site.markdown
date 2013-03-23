@@ -2,6 +2,7 @@
 comments: false
 date: 2011-08-21 05:31:00
 layout: project
+category: project
 slug: pc-black-label-mobile-site
 title: PC Black Label Mobile Site
 wordpress_id: 204

@@ -25,17 +25,31 @@
 
   <div id="main">
     <div class="header">
-      Header
-
+      {% comment %}
+      <!--
+      TODO: Figure out a way to dynamically output page titles in a custom order.
+      For now, make it static.
       <ul class="nav">
         {% for page in site.pages %}
           <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
         {% endfor %}
       </ul>
+      --> 
+      {% endcomment %}
 
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/archive/">Archive</a></li>
+        <li><a href="/side-projects/">Side Projects</a></li>
+        <li><a href="/toolbox/">Toolbox</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
     </div>
     <div class="promos">
       Promos
+      <div class="promo">
+      </div>
     </div>
     <div class="content">
       {{ content }}

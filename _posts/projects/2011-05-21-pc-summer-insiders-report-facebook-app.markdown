@@ -2,6 +2,7 @@
 comments: false
 date: 2011-05-21 05:30:02
 layout: project
+category: project
 slug: pc-summer-insiders-report-facebook-app
 title: PC Summer Insider's Report Facebook App
 wordpress_id: 202

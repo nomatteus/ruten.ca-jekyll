@@ -2,6 +2,7 @@
 comments: false
 date: 2010-10-21 05:17:30
 layout: project
+category: project
 slug: joefresh-com-site-maintenance-updates
 title: JoeFresh.com Site Maintenance & Updates
 wordpress_id: 183

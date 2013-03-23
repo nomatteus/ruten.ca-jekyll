@@ -2,6 +2,7 @@
 comments: false
 date: 2009-07-19 05:30:01
 layout: project
+category: project
 slug: recycleme-org
 title: RecycleMe.org Site & Contest
 wordpress_id: 114

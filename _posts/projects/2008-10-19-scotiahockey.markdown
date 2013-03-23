@@ -2,6 +2,7 @@
 comments: false
 date: 2008-10-19 04:59:13
 layout: project
+category: project
 slug: scotiahockey
 title: ScotiaHockey
 wordpress_id: 96

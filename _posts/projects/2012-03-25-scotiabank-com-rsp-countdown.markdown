@@ -2,6 +2,7 @@
 comments: false
 date: 2012-03-25 07:48:25
 layout: project
+category: project
 slug: scotiabank-com-rsp-countdown
 title: Scotiabank.com RSP Countdown
 wordpress_id: 298

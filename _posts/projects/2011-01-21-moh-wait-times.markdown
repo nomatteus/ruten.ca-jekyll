@@ -2,6 +2,7 @@
 comments: false
 date: 2011-01-21 05:24:21
 layout: project
+category: project
 slug: moh-wait-times
 title: MOH Wait Times
 wordpress_id: 194

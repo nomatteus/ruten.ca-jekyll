@@ -2,6 +2,7 @@
 comments: false
 date: 2009-03-21 03:55:11
 layout: project
+category: project
 slug: ontario-science-centre-scicom-5
 title: Ontario Science Centre - SciCom 5
 wordpress_id: 162

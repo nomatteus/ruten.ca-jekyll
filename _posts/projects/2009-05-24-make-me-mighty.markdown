@@ -2,6 +2,7 @@
 comments: false
 date: 2009-05-24 05:25:53
 layout: project
+category: project
 slug: make-me-mighty
 title: Make Me Mighty
 wordpress_id: 113

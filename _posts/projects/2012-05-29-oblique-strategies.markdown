@@ -2,6 +2,7 @@
 comments: true
 date: 2012-05-29 16:50:31
 layout: project
+category: project
 slug: oblique-strategies
 title: Oblique Strategies
 wordpress_id: 861

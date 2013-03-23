@@ -2,6 +2,7 @@
 comments: false
 date: 2002-03-19 03:38:23
 layout: project
+category: project
 slug: hawryluk-agency-inc
 title: Hawryluk Agency Inc.
 wordpress_id: 41
