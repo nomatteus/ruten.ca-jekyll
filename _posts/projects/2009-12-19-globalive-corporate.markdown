@@ -3,6 +3,7 @@ comments: false
 date: 2009-12-19 05:19:47
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/globalive-thumb.jpg
 slug: globalive-corporate
 title: Globalive Corporate
 wordpress_id: 112

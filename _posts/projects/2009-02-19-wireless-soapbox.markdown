@@ -3,6 +3,7 @@ comments: false
 date: 2009-02-19 05:17:58
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/soapbox-thumb.jpg
 slug: wireless-soapbox
 title: Wireless Soapbox
 wordpress_id: 111

@@ -3,6 +3,7 @@ comments: false
 date: 2011-12-25 07:39:01
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/totransit-thumb.png
 slug: to-transit-ttc-streetcars-live-on-a-map
 title: TO Transit - TTC Streetcars Live on a Map
 wordpress_id: 294

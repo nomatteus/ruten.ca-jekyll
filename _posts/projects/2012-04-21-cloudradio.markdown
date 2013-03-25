@@ -2,6 +2,7 @@
 comments: false
 date: 2012-04-21 01:20:01
 layout: project
+thumb: http://ruten.ca/wp-content/uploads/2012/04/cloudradio-thumb1.png
 category: project
 slug: cloudradio
 title: CloudRadio

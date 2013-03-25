@@ -3,6 +3,7 @@ comments: false
 date: 2012-03-25 07:53:04
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/conway-thumb.png
 slug: conways-game-of-life-in-javascript
 title: Conway's Game of Life in Javascript
 wordpress_id: 300

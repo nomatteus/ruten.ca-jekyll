@@ -3,6 +3,7 @@ comments: false
 date: 2010-04-21 05:14:39
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/tucson-thumb.png
 slug: hyundai-tuscon-2010-microsite
 title: Hyundai Tuscon 2010 Microsite
 wordpress_id: 161

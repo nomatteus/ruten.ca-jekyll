@@ -3,6 +3,7 @@ comments: false
 date: 2009-03-19 05:12:12
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/adwomen-thumb.png
 slug: ad-women-of-toronto
 title: Ad Women of Toronto
 wordpress_id: 101

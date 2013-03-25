@@ -3,6 +3,7 @@ comments: false
 date: 2009-05-24 05:25:53
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/mmm-thumb1.png
 slug: make-me-mighty
 title: Make Me Mighty
 wordpress_id: 113

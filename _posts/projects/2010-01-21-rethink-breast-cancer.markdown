@@ -3,6 +3,7 @@ comments: false
 date: 2010-01-21 05:17:00
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/rethink-thumb.png
 slug: rethink-breast-cancer
 title: Rethink Breast Cancer
 wordpress_id: 180

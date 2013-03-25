@@ -3,8 +3,17 @@ layout: page
 title: Projects
 ---
 
-<ul class="projects">
-{% for post in site.categories.project %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+<ul class="projects clearfix">
+{% for project in site.categories.project %}
+
+  <li class="project clearfix">
+    <div class="img">
+      <a href="{{ project.url }}"><img src="{{ project.thumb }}"></a>
+    </div>
+    <div class="info">
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      <div class="skills">{{ project.skill | join: ", " }}</div>
+    </div>
+  </li>
 {% endfor %}
 </ul>

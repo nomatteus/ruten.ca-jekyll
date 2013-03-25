@@ -3,6 +3,7 @@ comments: false
 date: 2012-03-25 07:48:25
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/scotia-thumb1.png
 slug: scotiabank-com-rsp-countdown
 title: Scotiabank.com RSP Countdown
 wordpress_id: 298

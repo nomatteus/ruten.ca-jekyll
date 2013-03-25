@@ -3,6 +3,7 @@ comments: false
 date: 2011-09-21 05:33:06
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/wind-thumb.png
 slug: win-with-wind-facebook-contest-app
 title: Win With WIND - Facebook Contest App
 wordpress_id: 206

@@ -3,6 +3,7 @@ comments: false
 date: 2012-04-21 03:06:11
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/04/bad-thumb.png
 slug: beadonor-ca
 title: BeADonor.ca
 wordpress_id: 803

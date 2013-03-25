@@ -3,6 +3,7 @@ comments: false
 date: 2011-02-21 05:25:09
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/kiosk-thumb.png
 slug: ministry-of-health-kiosk-application-email-backend
 title: Ministry of Health Kiosk Application Email Backend
 wordpress_id: 195

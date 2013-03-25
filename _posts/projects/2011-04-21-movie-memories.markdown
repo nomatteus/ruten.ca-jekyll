@@ -3,6 +3,7 @@ comments: false
 date: 2011-04-21 05:28:50
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/movie-memories-thumb.png
 slug: movie-memories
 title: Movie Memories
 wordpress_id: 200

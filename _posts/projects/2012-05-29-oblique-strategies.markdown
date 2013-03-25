@@ -3,7 +3,9 @@ comments: true
 date: 2012-05-29 16:50:31
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/05/thumb_temp.png
 slug: oblique-strategies
+permalink: /projects/oblique-strategies
 title: Oblique Strategies
 wordpress_id: 861
 skill:

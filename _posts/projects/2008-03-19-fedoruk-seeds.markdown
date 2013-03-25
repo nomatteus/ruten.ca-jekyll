@@ -3,10 +3,12 @@ comments: false
 date: 2008-03-19 03:42:37
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/fedoruk-thumb.jpg
 slug: fedoruk-seeds
 title: Fedoruk Seeds
 wordpress_id: 50
 skill:
+- '2008'
 - CSS
 - HTML
 - Javascript

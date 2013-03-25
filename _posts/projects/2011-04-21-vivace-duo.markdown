@@ -3,6 +3,7 @@ comments: false
 date: 2011-04-21 00:52:12
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2011/04/thumb.png
 slug: vivace-duo
 title: Vivace Duo
 wordpress_id: 768

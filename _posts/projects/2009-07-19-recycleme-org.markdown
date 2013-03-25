@@ -3,6 +3,7 @@ comments: false
 date: 2009-07-19 05:30:01
 layout: project
 category: project
+thumb: http://ruten.ca/wp-content/uploads/2012/03/recycle-thumb.jpg
 slug: recycleme-org
 title: RecycleMe.org Site & Contest
 wordpress_id: 114
