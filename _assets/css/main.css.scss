@@ -10,8 +10,21 @@
    SCSS Variables! Should set most fonts & colors here.
    ========================================================================== */
 
-$nav_font_family: "Georgia", "Helvetica Neue", Arial, sans-serif;
+// $body_font_family: "freight-sans-pro", sans-serif; // *** TOP PICK (maybe for headings) ***
 
+// These 4 are the top Picks. Sleep on it before final choice! (Leaning towards minion pro)
+$body_font_family: "minion-pro", serif; // *** TOP PICK ***
+// $body_font_family: "athelas", serif;
+// $body_font_family: "calluna", serif; // *** TOP PICK ***
+// $body_font_family: "kepler-std", serif;
+
+// $heading_font_family: "freight-sans-pro"; // weight semi-bold (600)
+$heading_font_family: "futura-pt"; // weight medium (500) - WINNER, FOR NOW
+// $heading_font_family: "europa"; // weight bold (700)
+// $heading_font_family: "";
+
+// $code_font_family: "";
+$nav_font_family: "Georgia", "Helvetica Neue", Arial, sans-serif;
 
 /* ==========================================================================
    Base Styles
@@ -22,9 +35,17 @@ html, button, input, select, textarea {
 }
 
 body {
+  font-family: $body_font_family;
   font-size: 1.2em;
   line-height: 1.7;
   background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading_font_family;
+  line-height: 1.2;
+  font-style: normal;
+  font-weight: 500;
 }
 
 a {
