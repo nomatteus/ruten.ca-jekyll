@@ -18,6 +18,8 @@ lsi: true
 # permalink: pretty
 permalink: /:year/:month/:day/:title
 
+# Turn on pygments code highlighting
+pygments: true
 
 
 ### Custom Config (non-Jekyll, for use in site templates etc.)

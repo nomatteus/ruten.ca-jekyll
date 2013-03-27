@@ -11,15 +11,26 @@ and any other features I want to add.
 
 Some Ruby code to do something:
 
-    class String
-      def idify
-        self.strip.gsub(/\W/, '_').gsub(/\s|^_*|_*$/, '').squeeze('_')
-      end
-      
-      def slugify
-        self.downcase.gsub(/\W|_/, ' ').strip.squeeze(' ').gsub(/\s/, '-')
-      end
-    end
+{% highlight ruby %}
+class String
+  def idify
+    self
+      .strip
+      .gsub(/\W/, '_')
+      .gsub(/\s|^_*|_*$/, '')
+      .squeeze('_')
+  end
+  
+  def slugify
+    self
+      .downcase
+      .gsub(/\W|_/, ' ')
+      .strip
+      .squeeze(' ')
+      .gsub(/\s/, '-')
+  end
+end
+{% endhighlight %}
 
 Some Javascript Code:
 

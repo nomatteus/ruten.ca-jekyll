@@ -149,6 +149,16 @@ textarea {
   }
 }
 
+// Code highlights
+.highlight {
+  background-color: #272822;
+  padding: 2%;
+  border-radius: 4px;
+  pre {
+    margin: 0;
+  }
+}
+
 
 /* ==========================================================================
    Helper classes
