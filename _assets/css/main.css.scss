@@ -10,21 +10,15 @@
    SCSS Variables! Should set most fonts & colors here.
    ========================================================================== */
 
-// $body_font_family: "freight-sans-pro", sans-serif; // *** TOP PICK (maybe for headings) ***
+$body_font_family: "minion-pro", serif;
 
-// These 4 are the top Picks. Sleep on it before final choice! (Leaning towards minion pro)
-$body_font_family: "minion-pro", serif; // *** TOP PICK ***
-// $body_font_family: "athelas", serif;
-// $body_font_family: "calluna", serif; // *** TOP PICK ***
-// $body_font_family: "kepler-std", serif;
-
-// $heading_font_family: "freight-sans-pro"; // weight semi-bold (600)
-$heading_font_family: "futura-pt"; // weight medium (500) - WINNER, FOR NOW
-// $heading_font_family: "europa"; // weight bold (700)
-// $heading_font_family: "";
+$heading_font_family: "futura-pt";
+$heading_font_weight: 500;
 
 // $code_font_family: "";
-$nav_font_family: "Georgia", "Helvetica Neue", Arial, sans-serif;
+
+$nav_font_family: "nudista-web", sans-serif;
+$nav_font_weight: 400;
 
 /* ==========================================================================
    Base Styles
@@ -45,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading_font_family;
   line-height: 1.2;
   font-style: normal;
-  font-weight: 500;
+  font-weight: $heading_font_weight;
 }
 
 a {
@@ -100,7 +94,7 @@ textarea {
       text-align: center;
     }
     ul.nav {
-      font: 1.2em/1.7 $nav_font_family;
+      font: $nav_font_weight 1.2em/1.7 $nav_font_family;
       list-style: none;
       text-align: center;
       padding: 0;
