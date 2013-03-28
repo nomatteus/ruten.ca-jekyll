@@ -14,7 +14,6 @@
   {% css_asset_tag global %}
   - /_assets/css/normalize.css.scss
   - /_assets/css/main.css.scss
-  - /_assets/css/prism.css
   {% endcss_asset_tag %}
 
 <script type="text/javascript" src="//use.typekit.net/efh6kqo.js"></script>
@@ -66,11 +65,11 @@
     </div>
   </div>
 
-
+  {% comment %}
   {% javascript_asset_tag global %}
   - /_assets/js/lib/prism.js
-  - /_assets/js/lib/prism.ruby.js
   {% endjavascript_asset_tag %}
+  {% endcomment %}
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>

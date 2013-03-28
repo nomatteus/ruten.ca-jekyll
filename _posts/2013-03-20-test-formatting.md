@@ -11,7 +11,7 @@ and any other features I want to add.
 
 Some Ruby code to do something:
 
-{% prism ruby %}
+{% highlight ruby %}
 class String
   CONST = {something: "something"}
   CONST2 = {:something => "something", :other => "something else"}
@@ -26,7 +26,7 @@ class String
     self.downcase.gsub(/\W|_/, ' ').strip.squeeze(' ').gsub(/\s/, '-')
   end
 end
-{% endprism %}
+{% endhighlight %}
 
 Some Javascript Code:
 
