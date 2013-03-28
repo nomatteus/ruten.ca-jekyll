@@ -13,21 +13,17 @@ Some Ruby code to do something:
 
 {% highlight ruby %}
 class String
+  CONST = {something: "something"}
+  CONST2 = {:something => "something", :other => "something else"}
+
   def idify
-    self
-      .strip
-      .gsub(/\W/, '_')
-      .gsub(/\s|^_*|_*$/, '')
-      .squeeze('_')
+    @something = "hello there"
+    self.strip.gsub(/\W/, '_').gsub(/\s|^_*|_*$/, '').squeeze('_')
+    return true
   end
   
   def slugify
-    self
-      .downcase
-      .gsub(/\W|_/, ' ')
-      .strip
-      .squeeze(' ')
-      .gsub(/\s/, '-')
+    self.downcase.gsub(/\W|_/, ' ').strip.squeeze(' ').gsub(/\s/, '-')
   end
 end
 {% endhighlight %}
