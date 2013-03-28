@@ -10,14 +10,16 @@
    SCSS Variables! Should set most fonts & colors here.
    ========================================================================== */
 
-$body_font_family: "minion-pro", serif;
+$body_font_family: "minion-pro", Georgia, serif;
 
-$heading_font_family: "futura-pt";
+$heading_font_family: "futura-pt", Helvetica, Arial, sans-serif;
 $heading_font_weight: 500;
 
 // $code_font_family: "";
+$logo_font_family: "futura-pt", Helvetica, sans-serif;
+$logo_font_weight: 400;
 
-$nav_font_family: "nudista-web", sans-serif;
+$nav_font_family: "futura-pt", sans-serif;
 $nav_font_weight: 400;
 
 /* ==========================================================================
@@ -89,6 +91,7 @@ textarea {
   .header {
     #logo {
       text-align: center;
+      font: $logo_font_weight 2.5em/1.5 $logo_font_family;
     }
     #tagline {
       text-align: center;
@@ -154,6 +157,7 @@ textarea {
   background-color: rgb(240, 240, 240);
   padding: 2%;
   border-radius: 4px;
+  overflow: auto;
   pre {
     margin: 0;
   }

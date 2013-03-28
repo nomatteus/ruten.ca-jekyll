@@ -16,13 +16,13 @@ class String
   CONST = {something: "something"}
   CONST2 = {:something => "something", :other => "something else"}
 
-  def idify
+  def idify(param)
     @something = "hello there"
     self.strip.gsub(/\W/, '_').gsub(/\s|^_*|_*$/, '').squeeze('_')
     return true
   end
   
-  def slugify
+  def slugify(param={})
     self.downcase.gsub(/\W|_/, ' ').strip.squeeze(' ').gsub(/\s/, '-')
   end
 end
@@ -30,9 +30,58 @@ end
 
 Some Javascript Code:
 
+{% highlight javascript %}
+function Label(opt_options) {
+   // Initialization
+   this.setValues(opt_options);
+
+   // Here go the label styles
+   var span = this.span_ = document.createElement('span');
+   span.style.cssText = 'position: absolute; left: -18px; top: -38px; ' +
+                        'white-space: nowrap;color:#000000;' +
+                        'padding: 0px 2px 0 3px;font-family: helvetica neue, arial; font-weight: bold;' +
+                        'font-size: 8px;background-color: #FFFFFF;border: 1px solid black;' + 
+                        'border-radius: 5px 3px 3px 5px;text-shadow: none;line-height:10px;';
+
+
+   var div = this.div_ = document.createElement('div');
+   div.appendChild(span);
+   div.style.cssText = 'position: absolute; display: none';
+};
+
+Label.prototype = new google.maps.OverlayView;
+{% endhighlight %}
 
 
 A Shell Script:
+
+{% highlight bash %}
+#  Shortcuts
+alias twg='cd ~/Projects/twg/'
+alias twgas='cd ~/Projects/twg/almost_scrum/'
+alias twghp='cd ~/Projects/twg/homepage/'
+alias fpf='cd ~/Projects/twg/fpf/'
+alias omx='cd ~/Projects/twg/omx/'
+
+alias me='cd ~/Projects/personal/'
+alias dsf='cd ~/Projects/personal/dinesafe/'
+alias dsfi='cd ~/Projects/personal/dinesafe-ios/'
+alias dsfa='cd ~/Projects/personal/dinesafe-assets/'
+
+# Apps
+alias s='subl'
+
+alias ios="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"
+alias iosd="sh /Users/mruten/.oh-my-zsh/custom/ios-sim-webdebug/ios-sim-webdebug.zsh"
+
+# Quick way to rebuild the Launch Services database and get rid
+# of duplicates in the Open With submenu.
+alias fixopenwith='/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain local -domain system -domain user'
+
+# Git
+alias glo="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+
+{% endhighlight %}
 
 
 How about a JS Fiddle?
