@@ -11,14 +11,12 @@ auto: true
 # Don't publish posts with a future date. Allows scheduling, of sorts.
 future: false
 
-# Generates and index for related posts. TODO: Figure out how this works and what it actually is.
+# Generates and index for related posts.
 lsi: true
 
 # Creates posts in a directory with an index.html
 # permalink: pretty
 permalink: /:year/:month/:day/:title
-
-
 
 ### Custom Config (non-Jekyll, for use in site templates etc.)
 

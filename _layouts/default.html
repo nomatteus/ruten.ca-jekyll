@@ -14,11 +14,8 @@
   {% css_asset_tag global %}
   - /_assets/css/normalize.css.scss
   - /_assets/css/main.css.scss
+  - /_assets/css/prism.css
   {% endcss_asset_tag %}
-
-  {% javascript_asset_tag global %}
-  - /_assets/foo.js.coffee
-  {% endjavascript_asset_tag %}
 
 <script type="text/javascript" src="//use.typekit.net/efh6kqo.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -29,7 +26,7 @@
   <div id="main">
     <div class="header">
       <div id="logo">Matt Ruten</div>
-      <div id="tagline">optional tagline</div>
+      <!-- <div id="tagline">optional tagline</div> -->
       {% comment %}
       <!--
       TODO: Figure out a way to dynamically output page titles in a custom order.
@@ -52,11 +49,15 @@
         <li><a href="/contact/">Contact</a></li>
       </ul>
     </div>
+    {% comment %}
+    <!--
     <div class="promos">
       Promos
       <div class="promo">
       </div>
     </div>
+    -->
+    {% endcomment %}
     <div class="content">
       {{ content }}
     </div>
@@ -64,6 +65,12 @@
       &copy; 2009-{{ site.time | date: "%Y" }}
     </div>
   </div>
+
+
+  {% javascript_asset_tag global %}
+  - /_assets/js/lib/prism.js
+  - /_assets/js/lib/prism.ruby.js
+  {% endjavascript_asset_tag %}
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
