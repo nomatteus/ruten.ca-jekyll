@@ -28,6 +28,8 @@ class String
 end
 {% endhighlight %}
 
+<!-- more -->
+
 Some Javascript Code:
 
 {% highlight javascript %}

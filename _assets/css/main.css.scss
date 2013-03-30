@@ -114,9 +114,28 @@ textarea {
   .content {
     max-width: 800px;
     margin: 0 auto;
+    border-top: 2px solid #ccc;
   }
   .footer {
 
+  }
+  // Posts List
+  ul.posts {
+    .post {
+
+    }
+  }
+  // Posts w/content
+  div.posts {
+    .post {
+      padding: 15px 0 30px;
+      border-bottom: 1px solid #ccc;
+      h2.title {
+        a {
+          color: black;
+        }
+      }
+    }
   }
   // Projects Page
   ul.projects {
@@ -149,6 +168,21 @@ textarea {
         }
       }
     }
+  }
+}
+
+#rainbow {
+  overflow: hidden;
+  .segment {
+    width: 16.666666667%;
+    height: 2px;
+    float: left;
+    &.red { background-color: #b01f15; }
+    &.orange { background-color: #b0671b; }
+    &.yellow { background-color: #b0ac24; }
+    &.green  { background-color: #53af1f; }
+    &.blue   { background-color: #0022af; }
+    &.purple { background-color: #b02a8e; }
   }
 }
 

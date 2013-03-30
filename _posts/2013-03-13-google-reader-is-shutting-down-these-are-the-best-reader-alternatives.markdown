@@ -236,8 +236,6 @@ But then I researched what other options are out there, and there are a few cont
 
 
 
-
-
 Options that didn't make the cut:
 
 
@@ -258,7 +256,7 @@ It sucks that Google is shutting down Reader, but such is life. Hopefully one of
 
 
 
-_Most of the services above seem to be having issues with the amount of traffic fueled by the Google Reader closure. I'm sure this will only be temporary, but it prevented me from actually trying out some of the sites._
+*Most of the services above seem to be having issues with the amount of traffic fueled by the Google Reader closure. I'm sure this will only be temporary, but it prevented me from actually trying out some of the sites.*
 
-
+*Update* (March 29, 2013): Just heard about another option that looks pretty good: [Feedbin.me](https://feedbin.me/). 
 

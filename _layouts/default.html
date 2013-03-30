@@ -27,24 +27,11 @@
     <div class="header">
       <div id="logo">Matt Ruten</div>
       <!-- <div id="tagline">optional tagline</div> -->
-      {% comment %}
-      <!--
-      TODO: Figure out a way to dynamically output page titles in a custom order.
-      For now, make it static.
-      <ul class="nav">
-        {% for page in site.pages %}
-          <li>&raquo; <a href="{{ page.url }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-      --> 
-      {% endcomment %}
-
       <ul class="nav">
         <li><a href="/">Home</a></li>
         <li><a href="/blog/">Blog</a></li>
         <li><a href="/projects/">Projects</a></li>
         <li><a href="/archive/">Archive</a></li>
-        <li><a href="/side-projects/">Side Projects</a></li>
         <li><a href="/toolbox/">Toolbox</a></li>
         <li><a href="/contact/">Contact</a></li>
       </ul>
@@ -64,6 +51,15 @@
     <div class="footer">
       &copy; 2009-{{ site.time | date: "%Y" }}
     </div>
+  </div>
+
+  <div id="rainbow">
+    <div class="segment red"></div>
+    <div class="segment orange"></div>
+    <div class="segment yellow"></div>
+    <div class="segment green"></div>
+    <div class="segment blue"></div>
+    <div class="segment purple"></div>
   </div>
 
   {% comment %}

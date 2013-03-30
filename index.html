@@ -3,11 +3,25 @@ layout: default
 title: Home
 ---
 
-<h1>Hello world!</h1>
-<p>This is my first Jekyll website.</p>
+<div class="posts">
+{% for post in site.categories.blog limit:5 %}
+  <div class="post">
+    <h2 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    {{ post.date | date_to_string }}
+
+    {{ post.content | split: '<!-- more -->' | first }}
+
+    <a href="{{ post.url }}">Read More &raquo;</a>
+  </div>
+{% endfor %}
+
 
 <ul class="posts">
-{% for post in site.categories.blog %}
-  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.categories.blog offset:5 %}
+  <li>
+    <span>{{ post.date | date_to_string }}</span>
+    &raquo;
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
 </ul>
