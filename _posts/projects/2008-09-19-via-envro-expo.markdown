@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/eexpo-thumb1.jpg
 slug: via-envro-expo
 title: Via Envro Expo
+client: true
 wordpress_id: 55
 skill:
 - '2008'

@@ -6,6 +6,8 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/voteto-thumb.png
 slug: toronto-2010-municipal-election-tweet-tracker-voteto
 title: 'Toronto 2010 Municipal Election Tweet Tracker #voteTO'
+description: Monitored 2010 eletion tweets in real-time, and built daily tweet summary pages.
+link: http://ruten.ca/totweets/
 wordpress_id: 172
 skill:
 - '2010'

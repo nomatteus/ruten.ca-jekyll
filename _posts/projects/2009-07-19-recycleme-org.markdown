@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/recycle-thumb.jpg
 slug: recycleme-org
 title: RecycleMe.org Site & Contest
+client: true
 wordpress_id: 114
 skill:
 - '2009'

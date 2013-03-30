@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/joe-thumb.jpg
 slug: joefresh-com-site-maintenance-updates
 title: JoeFresh.com Site Maintenance & Updates
+client: true
 wordpress_id: 183
 skill:
 - '2010'

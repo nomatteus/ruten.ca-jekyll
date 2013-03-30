@@ -5,7 +5,9 @@ layout: project
 category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/totransit-thumb.png
 slug: to-transit-ttc-streetcars-live-on-a-map
-title: TO Transit - TTC Streetcars Live on a Map
+title: TO Transit - TTC Streetcars & Buses Live on a Map
+description: View TTC streetcars & buses on a map with live updating. Works on both mobile & desktop.
+link: http://TOTransit.ca
 wordpress_id: 294
 skill:
 - '2011'

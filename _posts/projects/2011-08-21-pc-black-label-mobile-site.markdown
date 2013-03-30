@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/pcbl-thumb.jpg
 slug: pc-black-label-mobile-site
 title: PC Black Label Mobile Site
+client: true
 wordpress_id: 204
 skill:
 - '2011'

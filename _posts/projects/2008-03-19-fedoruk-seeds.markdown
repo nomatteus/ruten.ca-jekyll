@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/fedoruk-thumb.jpg
 slug: fedoruk-seeds
 title: Fedoruk Seeds
+client: true
 wordpress_id: 50
 skill:
 - '2008'

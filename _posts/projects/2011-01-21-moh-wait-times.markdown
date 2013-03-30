@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/waittimes-thumb2.png
 slug: moh-wait-times
 title: MOH Wait Times
+client: true
 wordpress_id: 194
 skill:
 - '2011'

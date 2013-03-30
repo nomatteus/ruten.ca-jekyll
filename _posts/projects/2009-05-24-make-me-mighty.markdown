@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/mmm-thumb1.png
 slug: make-me-mighty
 title: Make Me Mighty
+client: true
 wordpress_id: 113
 skill:
 - '2009'

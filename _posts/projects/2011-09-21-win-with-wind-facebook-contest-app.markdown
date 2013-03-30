@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/wind-thumb.png
 slug: win-with-wind-facebook-contest-app
 title: Win With WIND - Facebook Contest App
+client: true
 wordpress_id: 206
 skill:
 - '2011'

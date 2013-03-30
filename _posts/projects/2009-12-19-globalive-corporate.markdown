@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/globalive-thumb.jpg
 slug: globalive-corporate
 title: Globalive Corporate
+client: true
 wordpress_id: 112
 skill:
 - '2009'

@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/movie-memories-thumb.png
 slug: movie-memories
 title: Movie Memories
+client: true
 wordpress_id: 200
 skill:
 - '2011'

@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/hawryluk-thumb.jpg
 slug: hawryluk-agency-inc
 title: Hawryluk Agency Inc.
+client: true
 wordpress_id: 41
 skill:
 - '2002'

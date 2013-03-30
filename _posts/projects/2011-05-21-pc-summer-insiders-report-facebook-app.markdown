@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/pcsir-thumb.png
 slug: pc-summer-insiders-report-facebook-app
 title: PC Summer Insider's Report Facebook App
+client: true
 wordpress_id: 202
 skill:
 - '2011'

@@ -7,6 +7,8 @@ thumb: http://ruten.ca/wp-content/uploads/2012/05/thumb_temp.png
 slug: oblique-strategies
 permalink: /projects/oblique-strategies
 title: Oblique Strategies
+description: Mobile web app that displays a random "oblique strategy" for a bolt of inspiration.
+link: http://ObliqueStrategies.ca
 wordpress_id: 861
 skill:
 - '2012'

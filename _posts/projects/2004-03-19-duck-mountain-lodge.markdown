@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/madge-thumb.jpg
 slug: duck-mountain-lodge
 title: Duck Mountain Lodge
+client: true
 wordpress_id: 17
 skill:
 - '2004'

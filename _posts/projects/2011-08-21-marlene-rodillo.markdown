@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2011/08/thumb-marlene.png
 slug: marlene-rodillo
 title: Marlene Rodillo
+client: true
 wordpress_id: 770
 skill:
 - '2011'

@@ -6,6 +6,8 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/conway-thumb.png
 slug: conways-game-of-life-in-javascript
 title: Conway's Game of Life in Javascript
+description: Javascript implementation of Conway's Game of Life, using canvas for display.
+link: http://nomatteus.github.com/conway-game-of-life-js/examples/
 wordpress_id: 300
 skill:
 - '2012'

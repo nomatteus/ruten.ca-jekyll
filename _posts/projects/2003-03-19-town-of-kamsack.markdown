@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/tok-thumb.jpg
 slug: town-of-kamsack
 title: Town of Kamsack
+client: true
 wordpress_id: 37
 skill:
 - '2003'

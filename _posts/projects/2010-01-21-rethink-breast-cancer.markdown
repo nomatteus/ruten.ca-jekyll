@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/rethink-thumb.png
 slug: rethink-breast-cancer
 title: Rethink Breast Cancer
+client: true
 wordpress_id: 180
 skill:
 - '2010'

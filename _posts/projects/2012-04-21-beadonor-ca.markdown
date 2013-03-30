@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/04/bad-thumb.png
 slug: beadonor-ca
 title: BeADonor.ca
+client: true
 wordpress_id: 803
 skill:
 - '2012'

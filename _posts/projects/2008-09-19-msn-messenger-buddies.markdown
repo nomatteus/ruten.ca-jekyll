@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/buddy-thumb.jpg
 slug: msn-messenger-buddies
 title: MSN Messenger Buddies
+client: true
 wordpress_id: 64
 skill:
 - '2008'

@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/soapbox-thumb.jpg
 slug: wireless-soapbox
 title: Wireless Soapbox
+client: true
 wordpress_id: 111
 skill:
 - '2009'

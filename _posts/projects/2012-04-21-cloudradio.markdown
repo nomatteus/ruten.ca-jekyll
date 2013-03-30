@@ -6,6 +6,8 @@ thumb: http://ruten.ca/wp-content/uploads/2012/04/cloudradio-thumb1.png
 category: project
 slug: cloudradio
 title: CloudRadio
+description: Uses SoundCloud API to generate playlists, and plays continuously with colourful vizualizations.
+link: http://CloudRadio.ca
 wordpress_id: 786
 skill:
 - '2012'

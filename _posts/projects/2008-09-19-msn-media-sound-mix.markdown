@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/msm-thumb.jpg
 slug: msn-media-sound-mix
 title: MSN Media Sound Mix
+client: true
 wordpress_id: 77
 skill:
 - '2008'

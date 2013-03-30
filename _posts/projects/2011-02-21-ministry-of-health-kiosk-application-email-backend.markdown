@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/kiosk-thumb.png
 slug: ministry-of-health-kiosk-application-email-backend
 title: Ministry of Health Kiosk Application Email Backend
+client: true
 wordpress_id: 195
 skill:
 - '2011'

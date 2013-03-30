@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/scicom5-thumb.png
 slug: ontario-science-centre-scicom-5
 title: Ontario Science Centre - SciCom 5
+client: true
 wordpress_id: 162
 skill:
 - '2009'

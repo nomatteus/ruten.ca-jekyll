@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/adwomen-thumb.png
 slug: ad-women-of-toronto
 title: Ad Women of Toronto
+client: true
 wordpress_id: 101
 skill:
 - '2009'

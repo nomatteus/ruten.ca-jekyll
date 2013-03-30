@@ -6,6 +6,7 @@ category: project
 thumb: http://ruten.ca/wp-content/uploads/2012/03/sh-thumb.jpg
 slug: scotiahockey
 title: ScotiaHockey
+client: true
 wordpress_id: 96
 skill:
 - '2008'
