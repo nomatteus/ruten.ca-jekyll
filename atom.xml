@@ -1,0 +1,31 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>{{ site.title | xml_escape }}</title>
+  <link href="{{ site.url }}" />
+  <link href="{{ site.url }}/atom.xml" rel="self" type="application/atom+xml" />
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>Matt Ruten</name>
+    <email>matt@ruten.ca</email>
+  </author>
+
+  {% for post in site.categories.blog %}
+    <entry>
+      <id>{{ site.url }}{{ post.url }}</id>
+      <link type="text/html" rel="alternate" href="{{ site.url }}{{ post.url }}"/>
+      <title>{{ post.title | xml_escape }}</title>
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <author>
+        <name>Matt Ruten</name>
+        <uri>http://ruten.ca</uri>
+      </author>
+      <content type="html">{{ post.content | xml_escape }}</content>
+    </entry>
+  {% endfor %}
+
+</feed>
