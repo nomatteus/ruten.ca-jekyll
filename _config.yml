@@ -21,6 +21,11 @@ permalink: /:year/:month/:day/:title
 # Turn on pygments code highlighting
 pygments: true
 
+# Site Title for Open Graph Tags
+title: Matt Ruten's Blog
+
+# Site URL
+url: http://ruten.ca
 
 ### Custom Config (non-Jekyll, for use in site templates etc.)
 ruten:
@@ -28,5 +33,3 @@ ruten:
   default_title: "Matt Ruten - Web Developer in Toronto, Ontario"
   # Title text to append to post/etc. pages, i.e. "Post Title - Matt Ruten"
   title_append: " - Matt Ruten"
-  # Site URL: Not used yet.
-  url: http://ruten.ca

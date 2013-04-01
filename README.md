@@ -43,3 +43,7 @@ A few from that list that I might find useful are:
 * `bash`
 * ... lots more ...
 
+## Metadata Tags
+
+* [Twitter Cards](https://dev.twitter.com/docs/cards) (Also see [here](http://davidwalsh.name/twitter-cards))
+* [Open Graph Protocol (FB)](http://ogp.me/)
