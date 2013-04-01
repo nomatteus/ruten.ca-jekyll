@@ -9,7 +9,18 @@ body_class: post
   {{ content }}
 </div>
 
-{% include disqus.html %}
+
+<div id="subscribe-cta">
+  Thanks for reading! What did you think? 
+  <a href="#disqus_thread">Leave a comment</a> below, or 
+  <a href="/contact/">contact me</a>.
+  <br>
+  You can also follow me on 
+  <a href="http://twitter.com/mattruten" title="@mattruten on Twitter" target="_blank">Twitter</a>,
+  or subscribe to site updates via 
+  <a href="{{ site.url }}/atom.xml">RSS</a> or 
+  <a href="#">email</a>.
+</div>
 
 <div id="related">
   <h2>Related Posts</h2>
@@ -19,3 +30,5 @@ body_class: post
     {% endfor %}
   </ul>
 </div>
+
+{% include disqus.html %}
