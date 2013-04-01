@@ -14,6 +14,7 @@
   {% include metadata.html %}
 
   {% css_asset_tag global %}
+  - /_assets/css/font-awesome.css.scss
   - /_assets/css/pygments.css
   - /_assets/css/normalize.css.scss
   - /_assets/css/main.css.scss
@@ -38,6 +39,23 @@
         <li><a href="/archive/">Archive</a></li>
         <li><a href="/toolbox/">Toolbox</a></li>
         <li><a href="/contact/">Contact</a></li>
+      </ul>
+      <ul class="follow">
+        <li>
+          <a href="{{ site.ruten.twitter }}" target="_blank" title="Follow @mattruten on Twitter.">
+            <i class="icon-twitter"></i>@mattruten
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.ruten.feed }}" target="_blank" title="Subscribe to RSS Feed.">
+            <i class="icon-rss"></i>RSS
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.ruten.email_subscribe }}" target="_blank" title="Subscribe via Email.">
+            <i class="icon-envelope"></i>Email Updates
+          </a>
+        </li>
       </ul>
     </div>
     {% comment %}

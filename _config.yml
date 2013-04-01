@@ -33,3 +33,7 @@ ruten:
   default_title: "Matt Ruten - Web Developer in Toronto, Ontario"
   # Title text to append to post/etc. pages, i.e. "Post Title - Matt Ruten"
   title_append: " - Matt Ruten"
+  # Social links
+  twitter: http://twitter.com/mattruten
+  feed: http://ruten.ca/atom.xml
+  email_subscribe: "#" # TODO: Mailchimp RSS-to-Email or similar
