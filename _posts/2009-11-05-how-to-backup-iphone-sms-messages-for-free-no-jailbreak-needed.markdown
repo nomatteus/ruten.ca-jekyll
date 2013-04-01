@@ -1,5 +1,4 @@
 ---
-comments: true
 date: 2009-11-05 18:08:16
 layout: post
 slug: how-to-backup-iphone-sms-messages-for-free-no-jailbreak-needed
