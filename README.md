@@ -47,3 +47,16 @@ A few from that list that I might find useful are:
 
 * [Twitter Cards](https://dev.twitter.com/docs/cards) (Also see [here](http://davidwalsh.name/twitter-cards))
 * [Open Graph Protocol (FB)](http://ogp.me/)
+
+## Custom Codes
+
+### Adsense
+
+Use `<!--adsense1-->` or `<!--adsense2-->` in markdown content files.
+
+`adsense1` is a banner-shaped ad, and `adsense2` is a box-shaped ad.
+
+In your post template, you'll need to run the content through the `adsense_replace`
+filter, like so:
+
+    {{ content | adsense_replace }}

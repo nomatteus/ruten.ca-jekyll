@@ -11,7 +11,8 @@ categories:
 - iPhone
 ---
 
-`[scg_html_adsense1]`
+
+<!--adsense1-->
 
 Recently, I did a full restore on my iPhone to try and fix some of the many problems I've been having (we'll save that list for another day). While SMS messages are generally temporary in nature, I decided to find out if I could export them somehow. There are a few programs out there that claim to be able to do this for you, such as [MobileSyncBrowser](http://homepage.mac.com/vaughn/msync/) (Mac/PC, free trial/$10/$20),  [iPhone / iPod Touch Backup Extractor](http://supercrazyawesome.com/) (Mac, free), or an online tool like [iphone backup sms extractor](http://insend.de/). I didn't try any of these because I don't want to pay, I am not on a Mac, and I don't want to upload my private messages to some random site. Luckily, I discovered that it's not too hard to do it yourself. Grab your iPhone, put on your techie hat, and follow the 3 easy steps after the break!
 
@@ -123,4 +124,4 @@ You will only get the phone numbers of the messages, not the names (though it's 
 
 _That's it! _I hope this will be useful to someone, and if you have any questions or comments, or find any errors in this post just leave a comment!
 
-`[scg_html_adsense2]`
+<!--adsense2-->

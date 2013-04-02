@@ -35,5 +35,6 @@ ruten:
   title_append: " - Matt Ruten"
   # Social links
   twitter: http://twitter.com/mattruten
-  feed: http://ruten.ca/atom.xml
+  # feed: http://ruten.ca/atom.xml
+  feed: /atom.xml
   email_subscribe: "#" # TODO: Mailchimp RSS-to-Email or similar
