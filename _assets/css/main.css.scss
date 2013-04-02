@@ -56,6 +56,20 @@ a {
   }
 }
 
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+
+code {
+  margin: 0 2px;
+  padding: 2px 7px;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
