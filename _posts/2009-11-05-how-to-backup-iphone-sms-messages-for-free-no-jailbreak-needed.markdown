@@ -62,40 +62,24 @@ From the `Table` drop-down menu, choose the `message` table. This is the main ta
 
 There are a few fields that we are interested in:
 	
-  * `address`: This holds the phone number of the person that sent you or you sent the message to.
-
-	
-  * `date:` This is a Unix timestamp of when the message was sent.
-
-	
-  * `text:` The actual message.
-
-	
-  * `flags`: This should be either `2` or `3`. The messages flagged `3` are messages that you sent (outgoing), while the messages flagged `2` are incoming messages.
-
-
+* `address`: This holds the phone number of the person that sent you or you sent the message to.
+* `date`: This is a Unix timestamp of when the message was sent.
+* `text`: The actual message.
+* `flags`: This should be either `2` or `3`. The messages flagged `3` are messages that you sent (outgoing), while the messages flagged `2` are incoming messages.
 
 
 ### Step 3 - Exporting:
 
 
-Still using SQLite Database Browser program, click _File > Export > Table as CSV File_. Choose the _messages_ table and click _Export_. Choose a filename like _sms.csv_, hit _Save_, and you're done!
+Still using SQLite Database Browser program, click `File > Export > Table as CSV File`. Choose the `messages` table and click `Export`. Choose a filename like `sms.csv`, hit `Save`, and you're done!
 
 Now you can open the CSV using Excel (or equivalent) and laugh/cry/look at all the funny/angry/crazy messages you have sent and received over the years/weeks/days!
 
 To convert the datestamp to a human readable format in Excel, use the following formula (from [SpreadsheetPage.com](http://spreadsheetpage.com/index.php/tip/converting_unix_timestamps/)):
 
+> `=(((A1/60)/60)/24)+DATE(1970,1,1)+(-5/24)`
 
-> 
-
->     
->     =(((A1/60)/60)/24)+DATE(1970,1,1)+(-5/24)
-> 
-> 
-
-
-
-where _A1_ is the cell holding the datestamp, and _-5_ is your timezone GMT offset.
+where `A1` is the cell holding the datestamp, and `-5` is your timezone GMT offset.
 
 You can also duplicate (copy/paste) the address column and then do a find and replace of the phone number with the person's actual name (useful at least for the people you text the most with).
 
@@ -103,10 +87,10 @@ You can also duplicate (copy/paste) the address column and then do a find and re
 ### Notes:
 
 
-This will not export emoticons/emoji/MMS messages. There may be a way to grab these (table _msg_pieces_ may give some hints), but I'm not really worried about losing this info.
+This will not export emoticons/emoji/MMS messages. There may be a way to grab these (table `msg_pieces` may give some hints), but I'm not really worried about losing this info.
 
 You will only get the phone numbers of the messages, not the names (though it's easy enough to do a find and replace for your most used phone numbers).
 
-_That's it! _I hope this will be useful to someone, and if you have any questions or comments, or find any errors in this post just leave a comment!
+_That's it!_ I hope this will be useful to someone, and if you have any questions or comments, or find any errors in this post just leave a comment!
 
 <!--adsense2-->

@@ -13,17 +13,9 @@ categories:
 
 This is how you can resume a download when using Curl. Helpful for large files, mostly.
 
+    curl -C - ftp://siteorip.com/filename.zip --user username --verbose > savetothis_filename.zip
 
-
-
-    
-    <code>curl -C - ftp://siteorip.com/filename.zip --user username --verbose > savetothis_filename.zip
-    
     -C -                           - resumes download (if supported)
-    --user username"               - will prompt for password (if needed)
-    --verbose"                     - see what's going on
+    --user username                - will prompt for password (if needed)
+    --verbose                      - see what's going on
     > savetothis_filename.zip      - file to output to
-    </code>
-
-
-

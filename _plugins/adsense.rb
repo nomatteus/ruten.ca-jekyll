@@ -35,9 +35,10 @@ module Jekyll
     }
 
     def adsense_replace(input)
-      input
+      output = input
         .gsub(/<!--adsense1-->/, ADSENSE[:banner])
-        .gsub!(/<!--adsense2-->/, ADSENSE[:box])
+        .gsub(/<!--adsense2-->/, ADSENSE[:box])
+      output
     end
 
   end

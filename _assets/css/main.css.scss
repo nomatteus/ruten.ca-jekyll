@@ -56,20 +56,6 @@ a {
   }
 }
 
-blockquote {
-  padding: 0 0 0 15px;
-  margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
-}
-
-code {
-  margin: 0 2px;
-  padding: 2px 7px;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px;
-}
-
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -239,6 +225,26 @@ textarea {
   }
 }
 
+blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #eeeeee;
+}
+
+code {
+  margin: 0 2px;
+  padding: 2px 5px;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+pre {
+  code {
+    display: inline-block;
+  }
+}
+
 // Code highlights
 .highlight {
   background-color: rgb(240, 240, 240);
@@ -247,6 +253,14 @@ textarea {
   overflow: auto;
   pre {
     margin: 0;
+    code {
+      // Undo some <code> styles
+      margin: 0;
+      padding: 0;
+      border: none;
+      background: none;
+      border-radius: none;
+    }
   }
 }
 

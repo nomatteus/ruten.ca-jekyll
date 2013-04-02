@@ -13,16 +13,7 @@ categories:
 
 This is how you can untar a file in the terminal in Mac OS X:
 
-
-
-
-    
-    <code>tar -zxvf myfile.tar.gz
-    </code>
-
-
-
-
+    tar -zxvf myfile.tar.gz
 
 more timbits at [http://cheats.z00x.com/unix](http://cheats.z00x.com/unix)
 
