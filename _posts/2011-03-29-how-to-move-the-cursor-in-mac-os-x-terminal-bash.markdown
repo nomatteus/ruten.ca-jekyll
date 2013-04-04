@@ -13,53 +13,18 @@ categories:
 
 Moving around the terminal one character at a time is slow and gets annoying, so here's how to move around word by word:
 
+> * `ctrl-a`: move to front of line
+> * `ctrl-e`: move to end of line
+> * `ctrl-w`: delete word before cursor
 
+By default, the shortcuts for moving left and right are `Esc-b` and `Esc-f`. It's much handier to use `Alt/Option-left` and `-right`, so this is how you can configure terminal to do that:
+
+> To configure it to `Alt + left` and `right`:
 > 
-
->     
->     <strong>ctrl-a</strong>: move to front of line
->     <strong>ctrl-e</strong>: move to end of line
->     <strong>ctrl-w</strong>: delete word before cursor
-> 
-> 
-
-
-
-
-
-By default, the shortcuts for moving left and right are Esc-b and Esc-f. It's much handier to use Alt/Option-left and -right, so this is how you can configure terminal to do that:
-
-
-> 
-
->     
->     To configure it to <strong>Alt + left</strong> and <strong>right</strong>:
-> 
-> 
-
->     
->      - Open Terminal preferences (<strong>command + ,</strong>);
-> 
-> 
-
->     
->      - At Keyboard tab, select "<strong>control cursor left (or right)</strong>" and doubleclick it;
-> 
-> 
-
->     
->           - Left: Select the combo "<strong>modifier</strong>" to "<strong>option</strong>" and the <strong>action</strong> to <strong>\033b</strong>
-> 
-> 
-
->     
->           - Right: Select the combo "<strong>modifier</strong>" to "<strong>option</strong>" and the <strong>action</strong> to <strong>\033f</strong>
-> 
-> 
-
-
-
-
+> * Open Terminal preferences (`command + ,`);
+> * At Keyboard tab, select `control cursor left (or right)` and doubleclick it;
+> * Left: Select the combo `modifier` to `option` and the `action` to `\033b`
+> * Right: Select the combo `modifier` to `option` and the `action` to `\033f`
 
 Sources:
 

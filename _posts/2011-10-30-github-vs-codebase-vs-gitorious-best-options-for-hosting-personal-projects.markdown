@@ -15,74 +15,33 @@ First of all, I love Github. We use it at work, and it works great. The code bro
 
 Here's a quick comparison of the features I care about the most:
 
-
-
-
-
-
-
-
-
-
-[Github](https://github.com/plans)
-
-
-[Codebase](http://www.codebasehq.com/packages)
-
-
-
-
-
-
-Repositories
-
-
-5
-
-
-Unlimited
-
-
-
-
-
-
-Disk Space
-
-
-~615MB
-
-
-500MB
-
-
-
-
-
-
-Collaborators
-
-
-1
-
-
-9
-
-
-
-
-
-
-Price
-
-
-$7/month
-
-
-$7.56/month
-
-
-
+<table>
+  <tr>
+    <th></th>
+    <th><a href="https://github.com/plans">Github</a></th>
+    <th><a href="http://www.codebasehq.com/packages">Codebase</a></th>
+  </tr>
+  <tr>
+    <td>Repositories</td>
+    <td>5</td>
+    <td>Unlimited</td>
+  </tr>
+  <tr>
+    <td>Disk Space</td>
+    <td>~615MB</td>
+    <td>500MB</td>
+  </tr>
+  <tr>
+    <td>Collaborators</td>
+    <td>1</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Price</td>
+    <td>$7/month</td>
+    <td>$7.56/month</td>
+  </tr>
+</table>
 
 The key is unlimited repositories, with only a limit on space. This is perfect for hosting a large amount of small projects. Most of my repos are only a few MB.
 
@@ -90,20 +49,10 @@ It turns out there are a ton of repository hosting sites--Codebase was the only 
 
 So the plan for now is to move all my private Github repos to Codebase.
 
-One last option is to host your Git repos on your own server. I looked into a few self-hosted options, [Gitorious ](http://gitorious.org/gitorious/pages/Installation)looks the most promising, but is apparently a bit tricky to install. I'm adding it to the "look in to someday" list.
+One last option is to host your Git repos on your own server. I looked into a few self-hosted options, [Gitorious ](http://gitorious.org/gitorious/pages/Installation) looks the most promising, but is apparently a bit tricky to install. I'm adding it to the "look in to someday" list.
 
 Links:
 
-
-
-	
-  * Codebase: [http://www.codebasehq.com/](http://www.codebasehq.com/)
-
-	
-  * Github: [https://github.com/](https://github.com/)
-
-	
-  * Gitorious Self-Hosted: [http://gitorious.org/gitorious/pages/Installation](http://gitorious.org/gitorious/pages/Installation)
-
-
-
+* Codebase: [http://www.codebasehq.com/](http://www.codebasehq.com/)
+* Github: [https://github.com/](https://github.com/)
+* Gitorious Self-Hosted: [http://gitorious.org/gitorious/pages/Installation](http://gitorious.org/gitorious/pages/Installation)
