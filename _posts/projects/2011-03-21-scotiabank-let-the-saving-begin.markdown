@@ -3,7 +3,7 @@ comments: false
 date: 2011-03-21 05:27:05
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/scotia-thumb.png
+thumb: /images/content/2012/03/scotia-thumb.png
 slug: scotiabank-let-the-saving-begin
 title: Scotiabank - Let the Saving Begin
 client: true
@@ -19,15 +19,15 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped3-site1.jpg)
+![](/images/content/2012/03/scotia-cropped3-site1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped2-site.jpg)
+![](/images/content/2012/03/scotia-cropped2-site.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped4-youtube.jpg)
+![](/images/content/2012/03/scotia-cropped4-youtube.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped5-fb.jpg)
+![](/images/content/2012/03/scotia-cropped5-fb.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped1-ebook.jpg)
+![](/images/content/2012/03/scotia-cropped1-ebook.jpg)
 `[/slideshow]`
 
 Client: Scotiabank

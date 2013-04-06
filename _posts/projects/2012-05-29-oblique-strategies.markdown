@@ -3,7 +3,7 @@ comments: true
 date: 2012-05-29 16:50:31
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/05/thumb_temp.png
+thumb: /images/content/2012/05/thumb_temp.png
 slug: oblique-strategies
 permalink: /projects/oblique-strategies
 title: Oblique Strategies
@@ -20,15 +20,15 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/05/photo-1.png)
+![](/images/content/2012/05/photo-1.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/05/photo-2.png)
+![](/images/content/2012/05/photo-2.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/05/photo-3.png)
+![](/images/content/2012/05/photo-3.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/05/photo-4.png)
+![](/images/content/2012/05/photo-4.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/05/photo-5.png)
+![](/images/content/2012/05/photo-5.png)
 `[/slideshow]`
 
 Personal Side Project

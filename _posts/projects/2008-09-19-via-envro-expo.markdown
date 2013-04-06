@@ -3,7 +3,7 @@ comments: false
 date: 2008-09-19 04:00:06
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/eexpo-thumb1.jpg
+thumb: /images/content/2012/03/eexpo-thumb1.jpg
 slug: via-envro-expo
 title: Via Envro Expo
 client: true
@@ -18,9 +18,9 @@ skill:
 - WordPress
 ---
 
-[![](http://ruten.ca/wp-content/uploads/2012/03/eexpo-hero-cropped.jpg)](http://ruten.ca/wp-content/uploads/2012/03/eexpo-hero-cropped.jpg)
+[![](/images/content/2012/03/eexpo-hero-cropped.jpg)](/images/content/2012/03/eexpo-hero-cropped.jpg)
 
-[![](http://ruten.ca/wp-content/uploads/2012/03/eexpo-full-cropped.jpg)](http://ruten.ca/wp-content/uploads/2012/03/eexpo-full-cropped.jpg)
+[![](/images/content/2012/03/eexpo-full-cropped.jpg)](/images/content/2012/03/eexpo-full-cropped.jpg)
 
 Client: Via Rail
 

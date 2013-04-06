@@ -2,7 +2,7 @@
 comments: false
 date: 2012-04-21 01:20:01
 layout: project
-thumb: http://ruten.ca/wp-content/uploads/2012/04/cloudradio-thumb1.png
+thumb: /images/content/2012/04/cloudradio-thumb1.png
 category: project
 slug: cloudradio
 title: CloudRadio
@@ -20,15 +20,15 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped4.png)
+![](/images/content/2012/04/cropped4.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped2.png)
+![](/images/content/2012/04/cropped2.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped3.png)
+![](/images/content/2012/04/cropped3.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped5.png)
+![](/images/content/2012/04/cropped5.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped6.png)
+![](/images/content/2012/04/cropped6.png)
 `[/slideshow]`
 
 Personal Side Project

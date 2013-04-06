@@ -3,7 +3,7 @@ comments: false
 date: 2009-05-24 05:25:53
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/mmm-thumb1.png
+thumb: /images/content/2012/03/mmm-thumb1.png
 slug: make-me-mighty
 title: Make Me Mighty
 client: true
@@ -18,9 +18,9 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/mmm-cropped1.png)
+![](/images/content/2012/03/mmm-cropped1.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/mmm-cropped2.png)
+![](/images/content/2012/03/mmm-cropped2.png)
 
 Client: Internal (Mighty)
 Date: 2009

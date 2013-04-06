@@ -3,7 +3,7 @@ comments: false
 date: 2010-10-21 05:17:30
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/joe-thumb.jpg
+thumb: /images/content/2012/03/joe-thumb.jpg
 slug: joefresh-com-site-maintenance-updates
 title: JoeFresh.com Site Maintenance & Updates
 client: true
@@ -19,9 +19,9 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/joe-cropped1.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/03/joe-cropped2.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/03/joe-cropped3.jpg)
+![](/images/content/2012/03/joe-cropped1.jpg)
+![](/images/content/2012/03/joe-cropped2.jpg)
+![](/images/content/2012/03/joe-cropped3.jpg)
 `[/slideshow]`
 
 Client: Joe Fresh

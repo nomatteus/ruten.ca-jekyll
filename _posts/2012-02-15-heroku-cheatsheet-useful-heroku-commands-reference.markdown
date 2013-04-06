@@ -11,7 +11,7 @@ categories:
 - How To
 ---
 
-### [![](http://ruten.ca/wp-content/uploads/2012/02/heroku_cheatsheet.png)](http://ruten.ca/wp-content/uploads/2012/02/heroku_cheatsheet.png)
+### [![](/images/content/2012/02/heroku_cheatsheet.png)](/images/content/2012/02/heroku_cheatsheet.png)
 
 
 
@@ -127,7 +127,7 @@ Install New Relic Addon (Free): [http://addons.heroku.com/newrelic](http://addon
 And Configure: [http://devcenter.heroku.com/articles/newrelic](http://devcenter.heroku.com/articles/newrelic)
 And then setup Availability Monitoring in "Menu > Settings > Availability Monitoring"
 
-[Download PDF Version (heroku_cheatsheet.pdf)](http://ruten.ca/wp-content/uploads/2012/02/heroku_cheatsheet.pdf)
+[Download PDF Version (heroku_cheatsheet.pdf)](/images/content/2012/02/heroku_cheatsheet.pdf)
 
 [View on Google Docs](https://docs.google.com/spreadsheet/ccc?key=0An-JXZUc9FFldGhfM2N1MWgtZzFEU3FtaXRxMmtIUkE#gid=0)
 

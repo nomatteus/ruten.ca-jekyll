@@ -3,7 +3,7 @@ comments: false
 date: 2008-03-19 03:42:37
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/fedoruk-thumb.jpg
+thumb: /images/content/2012/03/fedoruk-thumb.jpg
 slug: fedoruk-seeds
 title: Fedoruk Seeds
 client: true
@@ -18,7 +18,7 @@ skill:
 - Web Development
 ---
 
-[![](http://ruten.ca/wp-content/uploads/2012/03/fedoruk-cropped.jpg)](http://ruten.ca/wp-content/uploads/2012/03/fedoruk-cropped.jpg)
+[![](/images/content/2012/03/fedoruk-cropped.jpg)](/images/content/2012/03/fedoruk-cropped.jpg)
 
 Date: 2008
 

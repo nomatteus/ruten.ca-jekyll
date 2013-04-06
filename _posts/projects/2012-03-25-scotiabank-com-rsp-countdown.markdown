@@ -3,7 +3,7 @@ comments: false
 date: 2012-03-25 07:48:25
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/scotia-thumb1.png
+thumb: /images/content/2012/03/scotia-thumb1.png
 slug: scotiabank-com-rsp-countdown
 title: Scotiabank.com RSP Countdown
 client: true
@@ -16,7 +16,7 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scotia-cropped.png)
+![](/images/content/2012/03/scotia-cropped.png)
 
 Client: Scotiabank
 Date: 2012

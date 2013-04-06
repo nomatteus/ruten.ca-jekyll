@@ -3,7 +3,7 @@ comments: false
 date: 2011-04-21 05:28:50
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/movie-memories-thumb.png
+thumb: /images/content/2012/03/movie-memories-thumb.png
 slug: movie-memories
 title: Movie Memories
 client: true
@@ -18,7 +18,7 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/movie-memories-cropped.jpg)
+![](/images/content/2012/03/movie-memories-cropped.jpg)
 Client: Internal (Mighty Digital / Bensimon Byrne)
 Date: 2011
 Tech: CakePHP, Amazon API, TheMovieDb.org API

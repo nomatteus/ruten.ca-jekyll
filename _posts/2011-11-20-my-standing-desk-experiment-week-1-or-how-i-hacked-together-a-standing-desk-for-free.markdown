@@ -23,7 +23,7 @@ In the past couple years, I've [read][marksdailyapple] [many][hivelogic] [blog][
 
 I like the idea of standing desks, but don't really want to invest any money into it until I try it out, so I hacked one together with stuff I already have:
 
-![](http://ruten.ca/wp-content/uploads/2011/11/standing-desk.jpg)
+![](/images/content/2011/11/standing-desk.jpg)
 
 It's just a table on a table, with some stuff on the ground to stand on, to reach the right height.
 

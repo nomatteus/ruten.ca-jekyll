@@ -3,7 +3,7 @@ comments: false
 date: 2011-02-21 05:25:09
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/kiosk-thumb.png
+thumb: /images/content/2012/03/kiosk-thumb.png
 slug: ministry-of-health-kiosk-application-email-backend
 title: Ministry of Health Kiosk Application Email Backend
 client: true
@@ -17,9 +17,9 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/kiosk-cropped2.jpg)
+![](/images/content/2012/03/kiosk-cropped2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/kiosk-cropped1.png)
+![](/images/content/2012/03/kiosk-cropped1.png)
 
 Client: Ministry of Health
 Date: 2011

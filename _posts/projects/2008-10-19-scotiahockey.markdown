@@ -3,7 +3,7 @@ comments: false
 date: 2008-10-19 04:59:13
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/sh-thumb.jpg
+thumb: /images/content/2012/03/sh-thumb.jpg
 slug: scotiahockey
 title: ScotiaHockey
 client: true
@@ -16,7 +16,7 @@ skill:
 - Web Development
 ---
 
-[![](http://ruten.ca/wp-content/uploads/2012/03/scotiahockey.jpg)](http://ruten.ca/wp-content/uploads/2012/03/scotiahockey.jpg)
+[![](/images/content/2012/03/scotiahockey.jpg)](/images/content/2012/03/scotiahockey.jpg)
 
 Client: Scotiabank
 Date: 2008

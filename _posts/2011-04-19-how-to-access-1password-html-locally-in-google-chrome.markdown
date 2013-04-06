@@ -17,7 +17,7 @@ Luckily, for read-only access, you can open the _1Password.html_ file and view y
 
 However, if you're using Google Chrome, you will see this:
 
-[](http://ruten.ca/wp-content/uploads/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)[![](http://ruten.ca/wp-content/uploads/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)](http://ruten.ca/wp-content/uploads/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)
+[](/images/content/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)[![](/images/content/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)](/images/content/2011/04/Screen-shot-2011-04-19-at-8.13.38-PM.png)
 
 ### How to Fix the "Problem loading 1Password data file" Error
 

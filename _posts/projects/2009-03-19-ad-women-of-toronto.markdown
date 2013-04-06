@@ -3,7 +3,7 @@ comments: false
 date: 2009-03-19 05:12:12
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/adwomen-thumb.png
+thumb: /images/content/2012/03/adwomen-thumb.png
 slug: ad-women-of-toronto
 title: Ad Women of Toronto
 client: true
@@ -19,9 +19,9 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/adwomentoronto-cropped1.png)
+![](/images/content/2012/03/adwomentoronto-cropped1.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/adwomentoronto-cropped2.png)
+![](/images/content/2012/03/adwomentoronto-cropped2.png)
 `[/slideshow]`
 
 Client: Ad Women of Toronto

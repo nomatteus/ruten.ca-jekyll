@@ -3,7 +3,7 @@ comments: false
 date: 2011-08-21 01:00:54
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2011/08/thumb-marlene.png
+thumb: /images/content/2011/08/thumb-marlene.png
 slug: marlene-rodillo
 title: Marlene Rodillo
 client: true
@@ -20,9 +20,9 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2011/08/cropped1.png)
-![](http://ruten.ca/wp-content/uploads/2011/08/cropped2.png)
-![](http://ruten.ca/wp-content/uploads/2011/08/cropped3.png)
+![](/images/content/2011/08/cropped1.png)
+![](/images/content/2011/08/cropped2.png)
+![](/images/content/2011/08/cropped3.png)
 `[/slideshow]`
 
 Client: Marlene Rodillo (Freelance)

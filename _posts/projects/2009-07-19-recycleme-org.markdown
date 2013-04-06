@@ -3,7 +3,7 @@ comments: false
 date: 2009-07-19 05:30:01
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/recycle-thumb.jpg
+thumb: /images/content/2012/03/recycle-thumb.jpg
 slug: recycleme-org
 title: RecycleMe.org Site & Contest
 client: true
@@ -18,15 +18,15 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/recycle-cropped1.jpg)
+![](/images/content/2012/03/recycle-cropped1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/recycle-cropped2.jpg)
+![](/images/content/2012/03/recycle-cropped2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/recycle-cropped3.jpg)
+![](/images/content/2012/03/recycle-cropped3.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/contest1.jpg)
+![](/images/content/2012/03/contest1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/contest2.jpg)
+![](/images/content/2012/03/contest2.jpg)
 `[/slideshow]`
 
 Client: TGLN

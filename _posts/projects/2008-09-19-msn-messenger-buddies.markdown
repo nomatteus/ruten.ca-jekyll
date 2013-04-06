@@ -3,7 +3,7 @@ comments: false
 date: 2008-09-19 04:11:28
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/buddy-thumb.jpg
+thumb: /images/content/2012/03/buddy-thumb.jpg
 slug: msn-messenger-buddies
 title: MSN Messenger Buddies
 client: true
@@ -18,15 +18,15 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/buddy-full.jpg)
+![](/images/content/2012/03/buddy-full.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/buddy1.5.jpg)
+![](/images/content/2012/03/buddy1.5.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/buddy2.jpg)
+![](/images/content/2012/03/buddy2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/buddy3.jpg)
+![](/images/content/2012/03/buddy3.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/buddy4.jpg)
+![](/images/content/2012/03/buddy4.jpg)
 `[/slideshow]`
 
 Client: MSN

@@ -3,7 +3,7 @@ comments: false
 date: 2009-12-19 05:19:47
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/globalive-thumb.jpg
+thumb: /images/content/2012/03/globalive-thumb.jpg
 slug: globalive-corporate
 title: Globalive Corporate
 client: true
@@ -19,9 +19,9 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped1.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped2.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/03/globalive-cropped3.jpg)
+![](/images/content/2012/03/globalive-cropped1.jpg)
+![](/images/content/2012/03/globalive-cropped2.jpg)
+![](/images/content/2012/03/globalive-cropped3.jpg)
 `[/slideshow]`
 
 Client: Globalive

@@ -3,7 +3,7 @@ comments: false
 date: 2011-08-21 05:31:00
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/pcbl-thumb.jpg
+thumb: /images/content/2012/03/pcbl-thumb.jpg
 slug: pc-black-label-mobile-site
 title: PC Black Label Mobile Site
 client: true
@@ -20,11 +20,11 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcbl-1.jpg)
+![](/images/content/2012/03/pcbl-1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcbl-2.jpg)
+![](/images/content/2012/03/pcbl-2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcbl-3.jpg)
+![](/images/content/2012/03/pcbl-3.jpg)
 
 Client: President's Choice
 Date: 2011

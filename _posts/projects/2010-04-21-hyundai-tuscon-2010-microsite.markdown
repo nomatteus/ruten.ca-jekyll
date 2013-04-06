@@ -3,7 +3,7 @@ comments: false
 date: 2010-04-21 05:14:39
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/tucson-thumb.png
+thumb: /images/content/2012/03/tucson-thumb.png
 slug: hyundai-tuscon-2010-microsite
 title: Hyundai Tuscon 2010 Microsite
 client: true
@@ -17,11 +17,11 @@ skill:
 - Web Development
 ---
 
-![](http://ruten.ca/wp-content/uploads/2012/03/tucson-cropped2.jpg)
+![](/images/content/2012/03/tucson-cropped2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/tucson-cropped1.jpg)
+![](/images/content/2012/03/tucson-cropped1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/tucson-cropped3.jpg)
+![](/images/content/2012/03/tucson-cropped3.jpg)
 
 Client: Hyundai
 Date: 2010

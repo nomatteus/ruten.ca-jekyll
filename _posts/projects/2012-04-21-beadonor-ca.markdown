@@ -3,7 +3,7 @@ comments: false
 date: 2012-04-21 03:06:11
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/04/bad-thumb.png
+thumb: /images/content/2012/04/bad-thumb.png
 slug: beadonor-ca
 title: BeADonor.ca
 client: true
@@ -21,13 +21,13 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped1.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped2.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped3.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped4.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped5.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped6.jpg)
-![](http://ruten.ca/wp-content/uploads/2012/04/cropped7.jpg)
+![](/images/content/2012/04/cropped1.jpg)
+![](/images/content/2012/04/cropped2.jpg)
+![](/images/content/2012/04/cropped3.jpg)
+![](/images/content/2012/04/cropped4.jpg)
+![](/images/content/2012/04/cropped5.jpg)
+![](/images/content/2012/04/cropped6.jpg)
+![](/images/content/2012/04/cropped7.jpg)
 `[/slideshow]`
 
 Client: Trillium Gift of Life (TGLN)

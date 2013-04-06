@@ -3,7 +3,7 @@ comments: false
 date: 2009-02-19 05:17:58
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/soapbox-thumb.jpg
+thumb: /images/content/2012/03/soapbox-thumb.jpg
 slug: wireless-soapbox
 title: Wireless Soapbox
 client: true
@@ -18,7 +18,7 @@ skill:
 - WordPress
 ---
 
-[![](http://ruten.ca/wp-content/uploads/2012/03/soapbox-full2.jpg)](http://ruten.ca/wp-content/uploads/2012/03/soapbox-full2.jpg)
+[![](/images/content/2012/03/soapbox-full2.jpg)](/images/content/2012/03/soapbox-full2.jpg)
 Client: Globalive Wireless (now WIND Mobile)
 Date: 2009
 Tech: WordPress, PHP

@@ -3,7 +3,7 @@ comments: false
 date: 2009-03-21 03:55:11
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/scicom5-thumb.png
+thumb: /images/content/2012/03/scicom5-thumb.png
 slug: ontario-science-centre-scicom-5
 title: Ontario Science Centre - SciCom 5
 client: true
@@ -20,11 +20,11 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/scicom-cropped1.jpg)
+![](/images/content/2012/03/scicom-cropped1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scicom-cropped2.jpg)
+![](/images/content/2012/03/scicom-cropped2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/scicom-cropped3.jpg)
+![](/images/content/2012/03/scicom-cropped3.jpg)
 `[/slideshow]`
 
 Client: Ontario Science Centre

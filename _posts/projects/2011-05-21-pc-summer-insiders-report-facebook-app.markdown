@@ -3,7 +3,7 @@ comments: false
 date: 2011-05-21 05:30:02
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/pcsir-thumb.png
+thumb: /images/content/2012/03/pcsir-thumb.png
 slug: pc-summer-insiders-report-facebook-app
 title: PC Summer Insider's Report Facebook App
 client: true
@@ -21,19 +21,19 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-likegate.jpg)
+![](/images/content/2012/03/pcsir-likegate.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-mixmatch.jpg)
+![](/images/content/2012/03/pcsir-mixmatch.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-mixmatch-result.jpg)
+![](/images/content/2012/03/pcsir-mixmatch-result.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-icecream1.jpg)
+![](/images/content/2012/03/pcsir-icecream1.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-icecream2.jpg)
+![](/images/content/2012/03/pcsir-icecream2.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-faveit.jpg)
+![](/images/content/2012/03/pcsir-faveit.jpg)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/pcsir-summertour.jpg)
+![](/images/content/2012/03/pcsir-summertour.jpg)
 `[/slideshow]`
 
 Client: President's Choice

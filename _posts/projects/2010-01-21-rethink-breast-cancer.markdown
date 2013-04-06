@@ -3,7 +3,7 @@ comments: false
 date: 2010-01-21 05:17:00
 layout: project
 category: project
-thumb: http://ruten.ca/wp-content/uploads/2012/03/rethink-thumb.png
+thumb: /images/content/2012/03/rethink-thumb.png
 slug: rethink-breast-cancer
 title: Rethink Breast Cancer
 client: true
@@ -20,11 +20,11 @@ skill:
 ---
 
 `[slideshow]`
-![](http://ruten.ca/wp-content/uploads/2012/03/rethink-cropped1.png)
+![](/images/content/2012/03/rethink-cropped1.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/rethink-cropped2.png)
+![](/images/content/2012/03/rethink-cropped2.png)
 
-![](http://ruten.ca/wp-content/uploads/2012/03/rethink-cropped3.png)
+![](/images/content/2012/03/rethink-cropped3.png)
 
 `[/slideshow]`
 
