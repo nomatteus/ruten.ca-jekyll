@@ -107,11 +107,12 @@ Dotfiles
 
 And some online services I pay for _(some of these are affiliate links)_:
 
-* <del>[Github](https://github.com/)</del> [Codebase](http://www.codebasehq.com/)  (See [this post](http://matthewruten.com/2011/10/30/github-vs-codebase-vs-gitorious-best-options-for-hosting-personal-projects/) for why.)
+* <del>[Github](https://github.com/)</del>
+[Codebase](http://www.codebasehq.com/)  (See [this post](http://matthewruten.com/2011/10/30/github-vs-codebase-vs-gitorious-best-options-for-hosting-personal-projects/) for why.)
 * [Linode](http://www.linode.com/?r=0ed1244fbf3f53d5368bdb863f685643b9744043) (VPS)
 * [Webfaction](http://www.webfaction.com?affiliate=ruten) (Hosting for side projects/staging sites.)
 * [HTTPme](http://httpme.com/) (Reseller hosting for legacy clients)
 * [Jungle Disk](https://www.jungledisk.com/) (To back up my work and home computers.)
 * [Amazon Web Services](http://aws.amazon.com/) (S3: Static asset hosting, and backup archival)
-* <del>[Netflix](http://netflix.ca)</del> (Cancelled this for now. I was barley using it, and seldom watch TV/movies these days.)
+* [Netflix](http://netflix.ca) (Cancelled this for now. I was barley using it, and seldom watch TV/movies these days.)
 * [Rdio](www.rdio.com) (Great selection of music. I have the Unlimited plan, which allows syncing to your mobile. Replaces iTunes except for albums Rdio doesn't have.)
