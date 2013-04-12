@@ -15,7 +15,8 @@ $body_font_family: "minion-pro", Georgia, serif;
 $heading_font_family: "futura-pt", Helvetica, Arial, sans-serif;
 $heading_font_weight: 500;
 
-// $code_font_family: "";
+$code_font_family: "source-code-pro", monospace, serif;
+
 $logo_font_family: "futura-pt", Helvetica, sans-serif;
 $logo_font_weight: 400;
 
@@ -58,6 +59,17 @@ a {
 
 td, th {
   padding: 5px 15px;
+}
+
+/* <hr> style from http://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
 }
 
 /*
@@ -186,6 +198,9 @@ textarea {
         .skills {
           font-size: 0.8em;
         }
+        a sup.icon {
+          text-decoration: none;
+        }
       }
     }
   }
@@ -235,6 +250,11 @@ blockquote {
   border-left: 5px solid #eeeeee;
 }
 
+/* Override font set in normalize.css */
+code, kbd, pre, samp {
+  font-family: $code_font_family;
+}
+
 code {
   margin: 0 2px;
   padding: 2px 5px;
@@ -265,6 +285,12 @@ pre {
       background: none;
       border-radius: none;
     }
+  }
+}
+
+.footnotes {
+  ol li p {
+    display: inline-block;
   }
 }
 

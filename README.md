@@ -43,6 +43,16 @@ A few from that list that I might find useful are:
 * `bash`
 * ... lots more ...
 
+## Markdown
+
+All Basic Syntax: <http://daringfireball.net/projects/markdown/syntax>
+
+Footnote Example:
+
+    Some random text. [^footref]
+
+    [^footref]: My footnote text.
+
 ## Metadata Tags
 
 * [Twitter Cards](https://dev.twitter.com/docs/cards) (Also see [here](http://davidwalsh.name/twitter-cards))

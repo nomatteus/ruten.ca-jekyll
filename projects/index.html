@@ -17,7 +17,7 @@ title: Projects
       <div class="description">{{ project.description }}</div>
       <div class="skills">{{ project.skill | join: ", " }}</div>
       {% if project.link %}
-        <a href="{{ project.link }}" target="_blank">Visit {{ project.link | replace:'http://','' }} <sup>[newwindowicon]</sup></a>
+        <a href="{{ project.link }}" target="_blank">Visit {{ project.link | replace:'http://','' }}<sup class="icon icon-external-link"></sup></a>
       {% endif %}
     </div>
   </li>

@@ -5,6 +5,14 @@ published: true
 category: blog
 ---
 
+* footnotes [^foot]
+
+[^foot]: I really was missing those.
+
+Another footnote [^foot2]
+
+[^foot2]: I really was missing those.
+
 This is a test post for developing the styles for this site. It should
 have a sampling of all types of HTML elements, and also code, embedded tweets,
 and any other features I want to add.
