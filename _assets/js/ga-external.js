@@ -19,6 +19,10 @@ $("a").on('click',function(e){
       console.log('ctrl or meta key pressed');
       var newtab = true;
     }
+    if ($(this).attr("target") == "_blank") {
+      console.log('target is _blank');
+      var newtab = true;
+    }
     // If it is not a new tab, we need to delay the loading
     // of the new link for a just a second in order to give the
     // Google track event time to fully fire
