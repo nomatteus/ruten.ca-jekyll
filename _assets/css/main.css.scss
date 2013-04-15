@@ -141,7 +141,7 @@ textarea {
       text-align: center;
       font: $logo_font_weight 2em/1.5 $logo_font_family;
       text-transform: uppercase;
-      margin: 2% 0;
+      margin-top: 2%;
       letter-spacing: 0.09em;
       a {
         color: #444;
@@ -150,6 +150,7 @@ textarea {
     }
     #tagline {
       text-align: center;
+      font-size: 0.8em;
     }
     a {
       color: #666;
@@ -162,7 +163,7 @@ textarea {
       > li {
         display: inline-block;
         padding: 0 5px;
-        width: 85px;
+        width: 50px;
         a {
           display: block;
           text-decoration: none; 
