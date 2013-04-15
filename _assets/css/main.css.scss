@@ -46,12 +46,24 @@ $color_grey_dark: #BDC3C7;
 
 // "Wet Asphalt" & "Midnight Blue"
 $color_dblue_light: #34495E;
-$color_dblue_dark: #34495E;
+$color_dblue_dark: #2C3E50;
 
 // "Concrete" & "Asbestos"
 $color_dgrey_light: #95A5A6;
 $color_dgrey_dark: #7F8C8D;
 
+
+/* ==========================================================================
+   SCSS Mixins.
+   ========================================================================== */
+
+@mixin transition($value) {
+  -webkit-transition: #{$value};
+  -moz-transition: #{$value};
+  -ms-transition: #{$value};
+  -o-transition: #{$value};
+  transition: #{$value};
+}
 
 /* ==========================================================================
    Base Styles
@@ -84,6 +96,19 @@ a {
   &:hover {
     color: $color_blue_light;
     text-decoration: underline;
+  }
+  &.btn {
+    background-color: $color_blue_dark;
+    border-radius: 6px;
+    color: #fff;
+    font-family: $nav_font_family;
+    padding: 8px 26px;
+    @include transition(0.25s);
+    &:hover {
+      background-color: $color_blue_light;
+      text-decoration: none;
+      @include transition(0.25s);
+    }
   }
 }
 
@@ -254,7 +279,7 @@ textarea {
   }
   #subscribe-cta {
     background-color: $color_grey_light;
-    border: 1px solid $color_grey_dark;
+    // border: 1px solid $color_grey_dark;
     padding: 10px 15px;
     border-radius: 6px;
     margin: 15px 0;
@@ -306,10 +331,10 @@ code, kbd, pre, samp {
 
 code {
   margin: 0 2px;
-  padding: 2px 5px;
+  padding: 1px 5px;
   border: 1px solid $color_grey_dark;
   background-color: $color_grey_light;
-  border-radius: 3px;
+  border-radius: 6px;
 }
 
 pre {
@@ -322,7 +347,7 @@ pre {
 .highlight {
   background-color: $color_grey_light;
   padding: 2%;
-  border-radius: 4px;
+  border-radius: 6px;
   overflow: auto;
   font-size: 0.9em;
   pre {
