@@ -4,6 +4,8 @@ date: 2013-03-13 23:05:16
 layout: post
 slug: google-reader-is-shutting-down-these-are-the-best-reader-alternatives
 title: Google Reader is shutting down. These are the best Reader alternatives.
+featured: true
+excerpt: An overview of the options available to replace Google Reader, which will disappear on July 1, 2013.
 wordpress_id: 1089
 categories:
 - blog

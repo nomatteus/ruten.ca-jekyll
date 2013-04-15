@@ -6,7 +6,7 @@ body_class: post
 <div id="post">
   <h1>{{ page.title }}</h1>
 
-  <em>Posted on {{ page.date | date_to_string }}</em>
+  <p><em>Posted on {{ page.date | date_to_string }}</em></p>
   
   {{ content | adsense_replace }}
 </div>
@@ -15,7 +15,7 @@ body_class: post
 <div id="subscribe-cta">
   Thanks for reading! What did you think? 
   <a href="#disqus_thread">Leave a comment</a> below, or 
-  <a href="/contact/">contact me</a>.
+  <a href="/about/">contact me</a>.
   <br>
   You can also follow me on 
   <a href="{{ site.ruten.twitter }}" title="@mattruten on Twitter" target="_blank">Twitter</a>,
@@ -24,6 +24,7 @@ body_class: post
   <a href="{{ site.ruten.email_subscribe }}">email</a>.
 </div>
 
+<!-- Related Posts aren't very good (probably don't have enough content yet).
 <div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
@@ -32,5 +33,6 @@ body_class: post
     {% endfor %}
   </ul>
 </div>
+-->
 
 {% include disqus.html %}

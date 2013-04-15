@@ -12,16 +12,46 @@
 
 $body_font_family: "minion-pro", Georgia, serif;
 
-$heading_font_family: "futura-pt", Helvetica, Arial, sans-serif;
+$heading_font_family: "franklin-gothic-urw", Helvetica, Arial, sans-serif;
 $heading_font_weight: 500;
 
 $code_font_family: "source-code-pro", monospace, serif;
 
-$logo_font_family: "futura-pt", Helvetica, sans-serif;
-$logo_font_weight: 400;
+$logo_font_family: "franklin-gothic-urw", Helvetica, sans-serif;
+$logo_font_weight: 700;
 
-$nav_font_family: "futura-pt", sans-serif;
+$nav_font_family: "franklin-gothic-urw", sans-serif;
 $nav_font_weight: 400;
+
+// http://designmodo.github.io/Flat-UI/
+// Flat UI - light
+$color_red_light:     #E74C3C;
+$color_orange_light:  #E67E22;
+$color_yellow_light:  #F1C40F;
+$color_green_light:   #2ECC71;
+$color_blue_light:    #3498DB;
+$color_purple_light:  #9B59B6;
+
+// Flat UI - dark
+$color_red_dark:     #C0392B;
+$color_orange_dark:  #D35400;
+$color_yellow_dark:  #F39C12;
+$color_green_dark:   #27AE60;
+$color_blue_dark:    #2980B9;
+$color_purple_dark:  #8E44AD;
+
+// "Clouds" & "Silver"
+$color_grey_light: #ECF0F1;
+$color_grey_dark: #BDC3C7;
+
+// "Wet Asphalt" & "Midnight Blue"
+$color_dblue_light: #34495E;
+$color_dblue_dark: #34495E;
+
+// "Concrete" & "Asbestos"
+$color_dgrey_light: #95A5A6;
+$color_dgrey_dark: #7F8C8D;
+
 
 /* ==========================================================================
    Base Styles
@@ -46,13 +76,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: #0071d5;
+  color: $color_blue_dark;
   text-decoration: none;
   &:visited {
-    color: #0071d5;
+    color: $color_blue_dark;
   }
   &:hover {
-    color: #2987fc;
+    color: $color_blue_light;
     text-decoration: underline;
   }
 }
@@ -103,14 +133,26 @@ textarea {
    ========================================================================== */
 
 #main {
-  padding: 2% 4%;
+  // padding: 2% 4%;
   .header {
+    background-color: $color_grey_light;
+    padding: 1%;
     #logo {
       text-align: center;
-      font: $logo_font_weight 2.5em/1.5 $logo_font_family;
+      font: $logo_font_weight 2em/1.5 $logo_font_family;
+      text-transform: uppercase;
+      margin: 2% 0;
+      letter-spacing: 0.09em;
+      a {
+        color: #444;
+        text-decoration: none;
+      }
     }
     #tagline {
       text-align: center;
+    }
+    a {
+      color: #666;
     }
     ul.follow {
       font: $nav_font_weight 1.0em/1.3 $nav_font_family;
@@ -119,13 +161,23 @@ textarea {
       text-align: center;
       > li {
         display: inline-block;
-        padding: 0 10px;
+        padding: 0 5px;
+        width: 85px;
         a {
-          &:hover {
-            i { text-decoration: none; }
-          }
+          display: block;
+          text-decoration: none; 
           i { margin-right: 3px; }
+          span {
+            display: none;
+            font-size: 0.8em;
+            line-height: 3;
+            visibility: hidden;
+          }
+          &:hover span { visibility: visible; }
         }
+        &.twitter a:hover { color: $color_blue_light; }
+        &.rss a:hover { color: $color_orange_light; }
+        &.email a:hover { color: $color_red_light; }
       }
     }
     ul.nav {
@@ -146,10 +198,11 @@ textarea {
   .content {
     max-width: 800px;
     margin: 0 auto;
-    border-top: 2px solid #ccc;
+    padding: 1% 4%;
   }
   .footer {
-
+    padding: 1% 4%;
+    background-color: $color_grey_light;
   }
   // Posts List
   ul.posts {
@@ -175,17 +228,11 @@ textarea {
     // overflow: hidden;
     padding: 0;
     li.project {
-      // width: 50%;
-      // float: left;
-      // min-width: 110px;
-      // max-width: 220px;
-      // overflow: hidden;
       margin: 5% 0;
       .img {
         float: left;
         img {
-          // width: 75%;
-          box-shadow: 0px 0px 15px 0px #9c9c9c;
+          box-shadow: 0px 0px 8px 0px rgb(207, 207, 207);
         }
       }
       .info {
@@ -205,7 +252,8 @@ textarea {
     }
   }
   #subscribe-cta {
-    background-color: #eee;
+    background-color: $color_grey_light;
+    border: 1px solid $color_grey_dark;
     padding: 10px 15px;
     border-radius: 6px;
     margin: 15px 0;
@@ -233,21 +281,21 @@ textarea {
   overflow: hidden;
   .segment {
     width: 16.666666667%;
-    height: 2px;
+    height: 3px;
     float: left;
-    &.red { background-color: #b01f15; }
-    &.orange { background-color: #b0671b; }
-    &.yellow { background-color: #b0ac24; }
-    &.green  { background-color: #53af1f; }
-    &.blue   { background-color: #0022af; }
-    &.purple { background-color: #b02a8e; }
+    &.red { background-color: $color_red_light; }
+    &.orange { background-color: $color_orange_light; }
+    &.yellow { background-color: $color_yellow_light; }
+    &.green  { background-color: $color_green_light; }
+    &.blue   { background-color: $color_blue_light; }
+    &.purple { background-color: $color_purple_light; }
   }
 }
 
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 20px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid $color_grey_light;
 }
 
 /* Override font set in normalize.css */
@@ -258,8 +306,8 @@ code, kbd, pre, samp {
 code {
   margin: 0 2px;
   padding: 2px 5px;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
+  border: 1px solid $color_grey_dark;
+  background-color: $color_grey_light;
   border-radius: 3px;
 }
 
@@ -271,10 +319,11 @@ pre {
 
 // Code highlights
 .highlight {
-  background-color: rgb(240, 240, 240);
+  background-color: $color_grey_light;
   padding: 2%;
   border-radius: 4px;
   overflow: auto;
+  font-size: 0.9em;
   pre {
     margin: 0;
     code {

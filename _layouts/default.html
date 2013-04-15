@@ -11,6 +11,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="cleartype" content="on">
 
+  <script type="text/javascript" src="//use.typekit.net/efh6kqo.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   {% include metadata.html %}
 
   {% css_asset_tag global %}
@@ -20,9 +23,6 @@
   - /_assets/css/main.css.scss
   {% endcss_asset_tag %}
 
-  <script type="text/javascript" src="//use.typekit.net/efh6kqo.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
   <link rel="alternate" type="application/atom+xml" href="atom.xml" title="Atom feed">
 
 </head>
@@ -30,30 +30,32 @@
 
   <div id="main">
     <div class="header">
-      <div id="logo">Matt Ruten</div>
-      <!-- <div id="tagline">optional tagline</div> -->
+      <div id="logo"><a href="/">Matt Ruten</a></div>
+      <div id="tagline"><small>Web &amp; iOS Software Developer</small></div>
       <ul class="nav">
-        <li><a href="/">Home</a></li>
         <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
         <li><a href="/projects/">Projects</a></li>
-        <li><a href="/archive/">Archive</a></li>
         <li><a href="/toolbox/">Toolbox</a></li>
-        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/archive/">Archive</a></li>
       </ul>
       <ul class="follow">
-        <li>
+        <li class="twitter">
           <a href="{{ site.ruten.twitter }}" target="_blank" title="Follow @mattruten on Twitter.">
-            <i class="icon-twitter"></i>@mattruten
+            <i class="icon-twitter"></i>
+            <span>@mattruten</span>
           </a>
         </li>
-        <li>
+        <li class="rss">
           <a href="{{ site.ruten.feed }}" target="_blank" title="Subscribe to RSS Feed.">
-            <i class="icon-rss"></i>RSS
+            <i class="icon-rss"></i>
+            <span>RSS</span>
           </a>
         </li>
-        <li>
+        <li class="email">
           <a href="{{ site.ruten.email_subscribe }}" target="_blank" title="Subscribe via Email.">
-            <i class="icon-envelope"></i>Email Updates
+            <i class="icon-envelope-alt"></i>
+            <span>Email Updates</span>
           </a>
         </li>
       </ul>
