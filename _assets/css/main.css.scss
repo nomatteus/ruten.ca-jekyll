@@ -159,72 +159,73 @@ textarea {
 
 #main {
   // padding: 2% 4%;
-  .header {
-    background-color: $color_grey_light;
-    padding: 1%;
-    #logo {
-      text-align: center;
-      font: $logo_font_weight 2em/1.5 $logo_font_family;
-      text-transform: uppercase;
-      margin-top: 2%;
-      letter-spacing: 0.09em;
-      a {
-        color: #444;
-        text-decoration: none;
-      }
-    }
-    #tagline {
-      text-align: center;
-      font-size: 0.8em;
-    }
-    a {
-      color: #666;
-    }
-    ul.follow {
-      font: $nav_font_weight 1.0em/1.3 $nav_font_family;
-      list-style: none;
-      padding: 0;
-      text-align: center;
-      > li {
-        display: inline-block;
-        padding: 0 5px;
-        width: 50px;
-        a {
-          display: block;
-          text-decoration: none; 
-          i { margin-right: 3px; }
-          span {
-            display: none;
-            font-size: 0.8em;
-            line-height: 3;
-            visibility: hidden;
-          }
-          &:hover span { visibility: visible; }
-        }
-        &.twitter a:hover { color: $color_blue_light; }
-        &.rss a:hover { color: $color_orange_light; }
-        &.email a:hover { color: $color_red_light; }
-      }
-    }
-    ul.nav {
-      font: $nav_font_weight 1.2em/1.7 $nav_font_family;
-      list-style: none;
-      text-align: center;
-      padding: 0;
-      margin: 20px 0;
-      > li {
-        display: inline-block;
-        padding: 0 10px;
-      }
-    }
-  }
-  .promos {
-
-  }
   .content {
     max-width: 800px;
     margin: 0 auto;
     padding: 1% 4%;
+  }
+  .header {
+    background-color: $color_grey_light;
+    .content {
+      #logo {
+        text-align: center;
+        font: $logo_font_weight 2em/1.5 $logo_font_family;
+        text-transform: uppercase;
+        margin-top: 2%;
+        letter-spacing: 0.12em;
+        a {
+          color: #444;
+          text-decoration: none;
+        }
+      }
+      #tagline {
+        display: none;
+        text-align: center;
+        font-size: 0.8em;
+      }
+      a {
+        color: #666;
+      }
+      ul.follow {
+        font: $nav_font_weight 1.0em/1.3 $nav_font_family;
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        > li {
+          display: inline-block;
+          padding: 0 5px;
+          width: 50px;
+          a {
+            display: block;
+            text-decoration: none; 
+            i { margin-right: 3px; }
+            span {
+              display: none;
+              font-size: 0.8em;
+              line-height: 3;
+              visibility: hidden;
+            }
+            &:hover span { visibility: visible; }
+          }
+          &.twitter a:hover { color: $color_blue_light; }
+          &.rss a:hover { color: $color_orange_light; }
+          &.email a:hover { color: $color_red_light; }
+        }
+      }
+      ul.nav {
+        font: $nav_font_weight 1.05em/1.7 $nav_font_family;
+        list-style: none;
+        text-align: center;
+        padding: 0;
+        margin: 20px 0;
+        > li {
+          display: inline-block;
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+  .promos {
   }
   .footer {
     padding: 1% 4%;
@@ -489,6 +490,20 @@ textarea[contenteditable] {
 
 @media only screen and (min-width: 800px) {
   /* Style adjustments for viewports that meet the condition */
+  #main {
+    .header {
+      .content {
+        #logo {
+          text-align: left;
+        }
+        ul.nav {
+          float: right;
+          display: inline-block;
+          margin-top: -47px;
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) {
